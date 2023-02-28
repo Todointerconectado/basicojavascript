@@ -19,29 +19,31 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
         <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
     </a>
 </p>
+<h3 align="left">Página del proyecto:</h3>
+<a href="https://todointerconectado.com/basicojavascript" target="_black">https://todointerconectado.com/basicojavascript</a>
 
 
-## Author: Francisco Carusso 🖋**
+## Author: Francisco Carusso 🖋
 <p align="left">
     <a href="https://www.linkedin.com/in/franciscocarusso/" target="_blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/franciscocarusso/" height="30" width="40"/>
-        <a href="https://www.linkedin.com/in/franciscocarusso" target="_blank"> https://www.linkedin.com/in/franciscocarusso</a>
+        <span>https://www.linkedin.com/in/franciscocarusso</span>
     </a>
 </p>
 
 <p align="left">
-    <span>Portafolio web: </span>
+    <h2>Portafolio web: </h2>
     <a href="https://todointerconectado.com" target="_blank">
-        <img align="center" src="https://todointerconectado.com/CSS/img/favicons/apple-icon-57x57.png" alt="https://todointerconectado.com" height="30" width="40" />
-        <a href="https://todointerconectado.com" target="_blank"> https://todointerconectado.com</a>
+        <img align="center" src="https://todointerconectado.com/CSS/img/favicons/apple-icon-57x57.png" alt="https://todointerconectado.com" height="30" width="40"/>
+        <span>https://todointerconectado.com</span>
     </a>
 </p>
 
 ## Ver ejemplo en vivo 💻
 <p align="left">
     <a href="https://www.youtube.com/@todointerconectado" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucy8m1jdoqfr1rvnrunoikmq/" height="30" width="40" />
-        <a href="https://youtube.com/@todointerconectado" target="_blank"> https://youtube.com/@todointerconectado</a>
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucy8m1jdoqfr1rvnrunoikmq/" height="30" width="40"/>
+        <span>https://youtube.com/@todointerconectado</span>
     </a>
 </p>
 
