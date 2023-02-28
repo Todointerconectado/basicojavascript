@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img {
+    width: 50%;
+}
+
+.usuarioBtn {
+    border: 2px solid gray;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+    padding: 3px;
+    width: 30%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 
+        background 300ms ease,
+        color 300ms ease;
+}
+
+.usuarioBtn:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* DescubleNumero */
+.DescubleNumero {
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

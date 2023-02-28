@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todointerconectado | Ejercicio 1</title>
+    <link rel="shortcut icon" href="https://todointerconectado.com/CSS/img/favicons/apple-icon-57x57.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>hello, world!</h1>
+    <h2>etiqueta &lt;h2&gt;</h2>
+
+    <img class="img" src="images/firefox.png" alt="image">
+    <button class="usuarioBtn">Cambiar de Usuario</button>
+
+
+    <section class="DescubleNumero">
+        <h2>Juego de adivinanzas de números</h2>
+
+        <p>
+            Hemos seleccionado un número aleatorio entre 1 y 100. <br>
+            Vea si puede adivinarlo en 10 turnos o menos. <br>
+            Le diremos si su conjetura fue demasiado alta o demasiado baja.
+        </p>
+
+        <div class="form">
+            <label for="guessField">Introduce un número: </label>
+            <input type="number" min="1" max="100" required id="guessField" class="guessField">
+            <input type="submit" value="Enviar valor" class="guessSubmit">
+        </div>
+
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </section>
+</body>
+<script src="js/practica.js/clase_1.js"></script>
+</html>
