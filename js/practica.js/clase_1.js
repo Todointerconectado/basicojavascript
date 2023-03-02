@@ -260,7 +260,7 @@ function checkGuess() {
         guesses.textContent = 'Intentos anteriores: ';
     }
     guesses.textContent += userGuess + ' ';
-  
+
     if (userGuess === randomNumber) {
         lastResult.textContent = '¡Felicidades! ¡Lo adivinaste!';
         lastResult.style.backgroundColor = 'green';
