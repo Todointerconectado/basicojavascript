@@ -1,4 +1,4 @@
-// Reto Platzi
+// Reto
 function solution(valor) {
     let tipo = typeof (valor);
     return tipo;
