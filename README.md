@@ -4,9 +4,9 @@
 
 <hr/>
 
-[![CI](css/images/badge.png)](https://github.com/Todointerconectado/basicojavascript/actions)
-[![CI](css/images/badgeNetwork.png)](https://github.com/Todointerconectado/basicojavascript/network)
-[![CI](css/images/badgeFork.png)](https://github.com/Todointerconectado/basicojavascript/fork)
+[![CI](css/images/badge.svg)](https://github.com/Todointerconectado/basicojavascript/actions)
+[![network](css/images/badgeNetwork.svg)](https://github.com/Todointerconectado/basicojavascript/network)
+[![fork](css/images/badgeFork.svg)](https://github.com/Todointerconectado/basicojavascript/fork)
 
 * Te invito a dar tu `⭐` al proyecto!!
 * Si quieres aportar al proyecto genera un `Fork`
@@ -89,55 +89,53 @@ Also make sure that you're using a correct Node version (`>=16`). If you're usin
 
 ## Author: Francisco Carusso 🖋
 
-<table>
-    <tr>
-        <td align="center">
-        <a href="https://github.com/Todointerconectado">
-            <img
-            src="https://github.com/Todointerconectado/todointerconectado.github.io/blob/main/CSS/img/favicons/apple-icon-114x114.png"
-            width="50"
-            height="50"
-            />
-        </a>
-        <br />
-        <a href="https://github.com/newrelic"  target="_blank">
-            Todointerconectado
-        </a>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-        <a href="https://www.linkedin.com/in/franciscocarusso" target="_blank">
-            <img
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-            alt="https://www.linkedin.com/in/franciscocarusso"
-            width="50"
-            height="50"
-            />
-        </a>
-        <br />
-        <a href="https://www.linkedin.com/in/franciscocarusso"  target="_blank">
-            <span>LinKedin</span>
-        </a>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-        <a href="https://www.youtube.com/@todointerconectado" target="_blank">
-            <img
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg"
-            alt="https://www.youtube.com/@todointerconectado"
-            width="50"
-            height="50"
-            />
-        </a>
-        <br />
-        <a href="https://www.youtube.com/@todointerconectado"  target="_blank">
-            <span>YouTube</span>
-        </a>
-        </td>
-    </tr>
-</table>
+ <table align="center">
+        <tr style="display: flex; gap: 20px;">
+            <td align="center">
+                <th align="center" style="width: 160px;">
+                    <a href="https://github.com/Todointerconectado">
+                        <img
+                        src="https://github.com/Todointerconectado/todointerconectado.github.io/blob/main/CSS/img/favicons/apple-icon-114x114.png"
+                        width="50"
+                        height="50"
+                        />
+                    </a>
+                    <br/>
+                    <a href="https://github.com/newrelic"  target="_blank">
+                        Todointerconectado
+                    </a>
+                </th>
+                <th align="center" style="width: 160px;">
+                    <a href="https://www.linkedin.com/in/franciscocarusso" target="_blank">
+                        <img
+                        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+                        alt="https://www.linkedin.com/in/franciscocarusso"
+                        width="50"
+                        height="50"
+                        />
+                    </a>
+                    <br />
+                    <a href="https://www.linkedin.com/in/franciscocarusso"  target="_blank">
+                        <span>LinKedin</span>
+                    </a>
+                </th>
+                <th align="center"  style="width: 160px;">
+                    <a href="https://www.youtube.com/@todointerconectado" target="_blank">
+                        <img
+                        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg"
+                        alt="https://www.youtube.com/@todointerconectado"
+                        width="50"
+                        height="50"
+                        />
+                    </a>
+                    <br />
+                    <a href="https://www.youtube.com/@todointerconectado"  target="_blank">
+                        <span>YouTube</span>
+                    </a>
+                </th>
+            </td>
+        </tr>
+    </table>
 
 ## Contratación 📧
 Si quieres contactarme puedes escribirme a francisconicolascarusso@gmail.com para consultas o en <a href="https://www.linkedin.com/in/franciscocarusso" target="_blank">linkedin.</a>
