@@ -93,7 +93,7 @@ Also make sure that you're using a correct Node version (`>=16`). If you're usin
         <tr style="display: flex; gap: 20px;">
             <td align="center">
                 <th align="center" style="width: 160px;">
-                    <a href="https://github.com/Todointerconectado">
+                    <a href="https://todointerconectado.com">
                         <img
                         src="https://github.com/Todointerconectado/todointerconectado.github.io/blob/main/CSS/img/favicons/apple-icon-114x114.png"
                         width="50"
@@ -101,7 +101,7 @@ Also make sure that you're using a correct Node version (`>=16`). If you're usin
                         />
                     </a>
                     <br/>
-                    <a href="https://github.com/newrelic"  target="_blank">
+                    <a href="https://todointerconectado.com"  target="_blank">
                         Todointerconectado
                     </a>
                 </th>
