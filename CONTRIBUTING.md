@@ -2,7 +2,7 @@
 
 Hello! We are delighted that you want to contribute to this project. Your help is essential to keep it going. I invite you to give your `⭐` to the project!!
 
-Please note that this project is published with a contributor [Code of Conduct] (https://github.com/Todointerconectado/basicojavascript/blob/main/CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+Please note that this project is published with a contributor [![Code of Conduct](css/images/codeOfConduct.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
 
 ## Submit a pull request
 
