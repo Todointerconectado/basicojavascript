@@ -11,9 +11,11 @@
 * Te invito a dar tu `⭐` al proyecto!!
 * Si quieres aportar al proyecto genera un `Fork`
 
-## Este proyecto cuenta con licencia conforme a los términos de la licencia [![Apache-2.0 license](css/images/License-APACHE.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/LICENSE)
+# Este proyecto cuenta con [![CODE OF CONDUCT](css/images/codeOfConduct.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CODE_OF_CONDUCT.md)
 
-## Este proyecto cuenta con ![CODE OF CONDUCT](https://github.com/Todointerconectado/basicojavascript/CODE_OF_CONDUCT)
+# Este proyecto cuenta con [![Apache-2.0 license](css/images/License-APACHE.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/LICENSE)
+
+# Este proyecto cuenta con [![CONTRIBUTING](css/images/contributing.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CONTRIBUTING.md)
 
 ## Descripción 👨‍💼
 
@@ -52,7 +54,7 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
 * `B` [11 For y For...Of](https://github.com/Todointerconectado/basicojavascript/blob/main/script/11_foryForOf.js) - Un bucle(loop) o ciclo repetitivo.
 * `B` [12 While](https://github.com/Todointerconectado/basicojavascript/blob/main/script/12_While.js) - Ciclo while.
 * `B` [13.0 Objects](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-0_objects.js) - Un objeto es una estructura de datos
-    * `B` [13.1 Objects Función constructora](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-0_objectsFuncionConstructora.js) - sirve para crear varios objetos a partir de nueva información.
+* `B` [13.1 Objects Función constructora](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-1_objectsFuncionConstructora.js) - crear varios objetos a partir de nueva información.
 
 
 ## Install all dependencies:
