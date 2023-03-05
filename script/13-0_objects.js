@@ -106,9 +106,15 @@ newArray // [2,4,6]
 
 // Por ejemplo, añadamos la propiedad color del objeto miAuto.
 
+// Antes de agregar la propiedad color:
+miAuto;
+
 miAuto["color"] = "rojo";
 // o 
 miAuto.color = "rojo";
+
+// despues de agregar la propiedad color
+miAuto;
 
 console.log(miAuto);
 
