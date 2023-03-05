@@ -170,7 +170,7 @@ function cambiarImage () {
     let miSrc = miImage.getAttribute('src');
 
     // pregunto si el atributo guardado en miSrc es igual a la ruta por defecto impuesta.
-    if (miSrc === 'images/firefox.png') {
+    if (miSrc === 'css/images/firefox.png') {
         // Si es true se cambia por la segunda imagen
         miImage.setAttribute('src', 'css/images/firefox2.png');
     }
