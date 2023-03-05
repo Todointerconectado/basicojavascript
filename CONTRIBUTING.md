@@ -17,7 +17,7 @@ Here are some things you can do to increase the likelihood that your pull reques
 - Follow the code style and quality standards.
 - Write tests.
 - Keep your change as focused as possible. If you want to make multiple changes that don't depend on each other, consider submitting them as separate pull requests.
-- Write a [nice commit message] (http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+- Write a ![nice commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
 ## Resources
 
