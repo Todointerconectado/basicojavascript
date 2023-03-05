@@ -8,8 +8,10 @@
 [![network](css/images/badgeNetwork.svg)](https://github.com/Todointerconectado/basicojavascript/network)
 [![fork](css/images/badgeFork.svg)](https://github.com/Todointerconectado/basicojavascript/fork)
 [![CONTRIBUTING](css/images/codeOfConduct.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CODE_OF_CONDUCT.md)
-[![CODE OF CONDUCT](css/images/contributing.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CONTRIBUTING.md)
 [![CODE OF CONDUCT](css/images/License-APACHE.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/LICENSE)
+[![CODE OF CONDUCT](css/images/contributing.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CONTRIBUTING.md)
+
+
 
 * Te invito a dar tu `⭐` al proyecto!!
 * Si quieres aportar al proyecto genera un `Fork`
