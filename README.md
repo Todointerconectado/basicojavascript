@@ -7,15 +7,12 @@
 [![CI](css/images/badge.svg)](https://github.com/Todointerconectado/basicojavascript/actions)
 [![network](css/images/badgeNetwork.svg)](https://github.com/Todointerconectado/basicojavascript/network)
 [![fork](css/images/badgeFork.svg)](https://github.com/Todointerconectado/basicojavascript/fork)
+[![CONTRIBUTING](css/images/contributing.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CODE_OF_CONDUCT.md)
+[![CODE OF CONDUCT](css/images/codeOfConduct.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CONTRIBUTING.md)
+[![CODE OF CONDUCT](css/images/codeOfConduct.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CONTRIBUTING.md)
 
 * Te invito a dar tu `⭐` al proyecto!!
 * Si quieres aportar al proyecto genera un `Fork`
-
-# Este proyecto cuenta con [![CODE OF CONDUCT](css/images/codeOfConduct.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CODE_OF_CONDUCT.md)
-
-# Este proyecto cuenta con [![Apache-2.0 license](css/images/License-APACHE.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/LICENSE)
-
-# Este proyecto cuenta con [![CONTRIBUTING](css/images/contributing.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CONTRIBUTING.md)
 
 ## Descripción 👨‍💼
 
