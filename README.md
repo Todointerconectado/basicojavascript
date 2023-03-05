@@ -11,6 +11,10 @@
 * Te invito a dar tu `⭐` al proyecto!!
 * Si quieres aportar al proyecto genera un `Fork`
 
+## Este proyecto cuenta con licencia conforme a los términos de la licencia [![Apache-2.0 license](css/images/License-APACHE.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/LICENSE)
+
+## Este proyecto cuenta con ![CODE OF CONDUCT](https://github.com/Todointerconectado/basicojavascript/CODE_OF_CONDUCT)
+
 ## Descripción 👨‍💼
 
 Este es un repositorio para ver los principios básicos de javaScript y aplicarlo en html con css.
@@ -34,19 +38,21 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
 
 `B` - Beginner, `A` - Advanced
 
-* `A` [00 Valores](https://github.com/Todointerconectado/basicojavascript/blob/main/script/00_Valores.js) - ¿Qué es un valor?
-* `A` [01 variables](https://github.com/Todointerconectado/basicojavascript/blob/main/script/01_variables.js) - Tipos de Variables.
-* `A` [02 Funciones](https://github.com/Todointerconectado/basicojavascript/blob/main/script/02_funciones.js) - Estructurar una function.
-* `A` [03 Scope](https://github.com/Todointerconectado/basicojavascript/blob/main/script/03_scope.js) - Qué alcance tienen las variables.
-* `A` [04 Hoisting](https://github.com/Todointerconectado/basicojavascript/blob/main/script/04_Hoisting.js) - Desplazamiento a la parte superior.
-* `A` [05 Coercion](https://github.com/Todointerconectado/basicojavascript/blob/main/script/05_coercion.js) - Transformar de un tipo de dato.
-* `A` [06 Truthy y Falsy](https://github.com/Todointerconectado/basicojavascript/blob/main/script/06_TruthyyFalsy.js) - Son valores verdaderos y falsos.
-* `A` [07 Operadores](https://github.com/Todointerconectado/basicojavascript/blob/main/script/07_Operadores.js) - Asignación, Comparación y Aritméticos.
-* `A` [08 If...else](https://github.com/Todointerconectado/basicojavascript/blob/main/script/08_if-else.js) - Son estructuras de control.
-* `A` [09 Switch](https://github.com/Todointerconectado/basicojavascript/blob/main/script/09_switch.js) - Otra manera de evaluar condiciones.
-* `A` [10 Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/10_array.js) - Un array es una estructura de datos.
-* `A` [11 For y For...Of](https://github.com/Todointerconectado/basicojavascript/blob/main/script/11_foryForOf.js) - Un bucle(loop) o ciclo repetitivo.
-* `A` [12 While](https://github.com/Todointerconectado/basicojavascript/blob/main/script/12_While.js) - Ciclo while.
+* `B` [00 Valores](https://github.com/Todointerconectado/basicojavascript/blob/main/script/00_Valores.js) - ¿Qué es un valor?
+* `B` [01 variables](https://github.com/Todointerconectado/basicojavascript/blob/main/script/01_variables.js) - Tipos de Variables.
+* `B` [02 Funciones](https://github.com/Todointerconectado/basicojavascript/blob/main/script/02_funciones.js) - Estructurar una function.
+* `B` [03 Scope](https://github.com/Todointerconectado/basicojavascript/blob/main/script/03_scope.js) - Qué alcance tienen las variables.
+* `B` [04 Hoisting](https://github.com/Todointerconectado/basicojavascript/blob/main/script/04_Hoisting.js) - Desplazamiento a la parte superior.
+* `B` [05 Coercion](https://github.com/Todointerconectado/basicojavascript/blob/main/script/05_coercion.js) - Transformar de un tipo de dato.
+* `B` [06 Truthy y Falsy](https://github.com/Todointerconectado/basicojavascript/blob/main/script/06_TruthyyFalsy.js) - Son valores verdaderos y falsos.
+* `B` [07 Operadores](https://github.com/Todointerconectado/basicojavascript/blob/main/script/07_Operadores.js) - Asignación, Comparación y Aritméticos.
+* `B` [08 If...else](https://github.com/Todointerconectado/basicojavascript/blob/main/script/08_if-else.js) - Son estructuras de control.
+* `B` [09 Switch](https://github.com/Todointerconectado/basicojavascript/blob/main/script/09_switch.js) - Otra manera de evaluar condiciones.
+* `B` [10 Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/10_array.js) - Un array es una estructura de datos.
+* `B` [11 For y For...Of](https://github.com/Todointerconectado/basicojavascript/blob/main/script/11_foryForOf.js) - Un bucle(loop) o ciclo repetitivo.
+* `B` [12 While](https://github.com/Todointerconectado/basicojavascript/blob/main/script/12_While.js) - Ciclo while.
+* `B` [13.0 Objects](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-0_objects.js) - Un objeto es una estructura de datos
+    * `B` [13.1 Objects Función constructora](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-0_objectsFuncionConstructora.js) - sirve para crear varios objetos a partir de nueva información.
 
 
 ## Install all dependencies:
