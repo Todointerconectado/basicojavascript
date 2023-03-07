@@ -1,7 +1,7 @@
 // Sobrecargar tu sitio web de ejemplo:
 
 // Guardo la etiqueta <img> en una variable llamada miImage.
-let miImage = document.getElementsByClassName('img');
+let miImage = document.getElementById('portada');
 
 function cambiarImage () {
     // Creo una variable y guardo el atributo 'src'
