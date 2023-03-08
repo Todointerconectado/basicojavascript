@@ -228,6 +228,7 @@ A modo de recopilación:
 .find()   : Devuelve el primer elemento del array que cumpla con la condición dada
 .forEach(): Ejecuta lo que le definamos una vez por cada elemento de nuestro array
 .some()   : Comprueba si al menos un elemento del array cumple con la condición que le damos, devuelve true
+indexOf() : esta nos permite encontrar el índice del elemento que buscamos eliminar.
 */
 
 // ------------------------------------------------------------
