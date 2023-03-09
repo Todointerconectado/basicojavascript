@@ -37,6 +37,8 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
 <h3 align="left">Página del proyecto:</h3>
 <a href="https://todointerconectado.com/basicojavascript" target="_black">https://todointerconectado.com/basicojavascript</a>
 
+### Indice
+
 `B` - Beginner, `A` - Advanced
 
 * `B` [00 Valores](https://github.com/Todointerconectado/basicojavascript/blob/main/script/00_Valores.js) - ¿Qué es un valor?
@@ -78,7 +80,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bas
 con ``--lts`` se instala la ultima version.
 
 ```
-nvm instal --lts
+nvm install --lts
 ```
 
 **Para ver que version tenemos instalada:**
