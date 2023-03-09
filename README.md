@@ -11,8 +11,6 @@
 [![CODE OF CONDUCT](css/images/License-APACHE.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/LICENSE)
 [![CODE OF CONDUCT](css/images/contributing.svg)](https://github.com/Todointerconectado/basicojavascript/blob/main/CONTRIBUTING.md)
 
-
-
 * Te invito a dar tu `⭐` al proyecto!!
 * Si quieres aportar al proyecto genera un `Fork`
 
@@ -31,7 +29,9 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
     </a>
     <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+    <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
+        <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node.js" width="40" height="40"/> 
     </a>
 </p>
 <h3 align="left">Página del proyecto:</h3>
@@ -58,40 +58,36 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
 * `B` [14.1 Eliminar Elementos de un Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/14-1_eliminarElementosDeUnArray.js) - Distintas funciones para aplicar.
 * `B` [15 Desafios](https://github.com/Todointerconectado/basicojavascript/blob/main/script/15_desafios.js) - Desafios para aplicar lo aprendido.
 
-## Install all dependencies:
+## Install node.js:
 
+**Primero install curl**
 ```
-npm install
-```
-
-**Run ESLint**
-
-You may want to run it to check code quality.
-
-```
-npm run lint
+sudo apt install curl
 ```
 
-**Run all tests**
+**[Install nvm](https://github.com/nvm-sh/nvm#manual-install) - copiamos e instalamos**
+
+Luego de instalar reiniciamos la terminal.
 
 ```
-npm test
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
 
-**Run tests by name**
+**Ahora para install uns version de node.js**
+
+con ``--lts`` se instala la ultima version.
 
 ```
-npm test -- 'LinkedList'
+nvm instal --lts
+```
+
+**Para ver que version tenemos instalada:**
+
+```
+node -v
 ```
 
 **Troubleshooting**
-
-If linting or testing is failing, try to delete the `node_modules` folder and re-install npm packages:
-
-```
-rm -rf ./node_modules
-npm i
-```
 
 Also make sure that you're using a correct Node version (`>=16`). If you're using [nvm](https://github.com/nvm-sh/nvm) for Node version management you may run `nvm use` from the root folder of the project and the correct version will be picked up.
 
@@ -100,7 +96,7 @@ Also make sure that you're using a correct Node version (`>=16`). If you're usin
 
  <table align="center">
         <tr style="display: flex; gap: 20px;">
-            <td align="center">
+            <!-- <td align="center"> -->
                 <th align="center" style="width: 160px;">
                     <a href="https://todointerconectado.com">
                         <img
@@ -142,7 +138,7 @@ Also make sure that you're using a correct Node version (`>=16`). If you're usin
                         <span>YouTube</span>
                     </a>
                 </th>
-            </td>
+            <!-- </td> -->
         </tr>
     </table>
 
