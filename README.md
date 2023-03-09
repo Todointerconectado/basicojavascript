@@ -31,7 +31,7 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
     <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
         <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
     <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node.js" width="40" height="40"/> 
+        <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node.js" width="80" height="40"/> 
     </a>
 </p>
 <h3 align="left">Página del proyecto:</h3>
@@ -73,7 +73,7 @@ Luego de instalar reiniciamos la terminal.
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
 
-**Ahora para install uns version de node.js**
+**Ahora para install una version de node.js**
 
 con ``--lts`` se instala la ultima version.
 
