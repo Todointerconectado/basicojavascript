@@ -223,6 +223,10 @@ console.log(existeArticulo); // true
 
 /*
 A modo de recopilación:
+.push()   : Ingresa un elemento al final del array.
+.unshift(): Agrega uno o varios elementos al inicio del array original.
+.pop()    : Eliminará el último elemento de un array.
+.shift()  : Eliminar el primer elemento de un array.
 .filter() : Devuelve todos los elementos del array que cumplan con la condición dada
 .map()    : No filtra sino mapea y guarda el valor del nombre del object
 .find()   : Devuelve el primer elemento del array que cumpla con la condición dada
@@ -251,3 +255,60 @@ indexOf() : esta nos permite encontrar el índice del elemento que buscamos elim
  */
 
 
+// Desarrollador: Francisco Carusso 👨🏽‍💻
+// En este desafío debes ayudarnos a arreglar la función solution.
+// Esta recibe un array cars y debería retornar el array filtrado únicamente con los objetos que tengan la propiedad licensePlate.
+// Pero no está funcionando.
+// La función solo devuelve un objeto con el primer elemento que cumple los requisitos, no estamos recibiendo los demás elementos del array que también deberían pasar el filtro.
+// ¿Nos ayudas? ¿Cómo solucionarías el error?
+
+const cars = [
+    { color: 'red', brand: 'Kia'},
+    { color: 'gray', brand: 'Chevrolet', licensePlate: 'AAA111'},
+    { licensePlate: 'RGB255' },
+];
+
+function solution(cars) {
+    // 👇 Este es el código que no funciona
+    return cars.filter(function (car) {
+        if (car.licensePlate) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    });
+}
+
+console.log(solution(cars));
+
+
+// ¿Cuál es su resultado?
+let a = 3;
+let b = new Number(3);
+let c = 3;
+
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
+
+
+
+// ✅ Cambia el array original
+
+function multiplyElements(array) {
+    console.log( typeof array );
+    console.log( array );
+
+    // Tu código aquí 👈
+    for (var i=0; i < array.length; i++) {
+        array[i] *= 2;
+    }
+    return array;
+}
+
+console.log( multiplyElements([2, 4, 5, 6, 8]) );
