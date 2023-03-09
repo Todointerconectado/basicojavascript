@@ -54,7 +54,9 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
 * `B` [12 While](https://github.com/Todointerconectado/basicojavascript/blob/main/script/12_While.js) - Ciclo while.
 * `B` [13.0 Objects](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-0_objects.js) - Un objeto es una estructura de datos
 * `B` [13.1 Objects Función constructora](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-1_objectsFuncionConstructora.js) - crear varios objetos a partir de nueva información.
-
+* `B` [14.0 Recorridos de Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/4-0_RecorridosDeArray.js) - Distintas funciones para recorrer un array
+* `B` [14.1 Eliminar Elementos de un Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/14-1_eliminar   e   lementosDeUnArray.js) - Distintas funciones para aplicar.
+* `B` [15 Desafios](https://github.com/Todointerconectado/basicojavascript/blob/main/script/15_desafios.js) - Desafios para aplicar lo aprendido.
 
 ## Install all dependencies:
 
