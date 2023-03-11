@@ -6,7 +6,7 @@ Desarrollado por: Francisco Nicolas Carusso.
 
 // 1. Generar una función que le ingrese por parámetro algún dato ya sea ingresado por el usuario o declarado anteriormente en su código y mostrar por consola el tipo de dato que es.
 
-let dato = 'inicio';
+let dato;
 
 function tipoDeDato(dato) {
     return `El tipo de dato es: ${typeof dato}`;
@@ -19,14 +19,14 @@ console.log( tipoDeDato(undefined) );
 
 // 2. Dado dos números ingresados por el usuario, se pide realizar una función que devuelve la resta de ambos números. Mostrar el resultado por la consola
 
-let num1 = 1;
-let num2 = 2;
 
 function resta(num1, num2) {
+    let num1 = parseInt( prompt("Ingrese un numero: "));
+    let num2 = parseInt( prompt("Ingrese otro numero: "));
     return `La resta es: ${num1 - num2}`;
 }
 
-console.log(resta(3,4));
+console.log(resta());
 
 // 3. Generar una función que le ingresen por parámetro dos valores distintos en dos variables a y b, luego el valor ingresado en a pasarlo a b y el valor Ingresado en b, Pasarlo a a y mostrarlos
 
@@ -91,7 +91,6 @@ console.log( conversionGrados(120) );
 
 let numFactorial;
 
-
 function factorial(numFactorial) {
     let factorial=numFactorial;
     
@@ -99,13 +98,14 @@ function factorial(numFactorial) {
         if(numFactorial > 0 && numFactorial < 10) {
             for (let i = (numFactorial-1); i >= 1; i--){
                 factorial = factorial * i;
+                console.log(`i: ${i}`);
+                console.log(`factorial es: ${factorial}`);
             }
             return `El factorial de ${numFactorial} es ${factorial}`
         }
         else{
             return 'Ingrese un número mayor a cero y menor a 10 😁'
         }
-
     }
     else {
         return 'Ingrese un parametro Number';
@@ -113,14 +113,23 @@ function factorial(numFactorial) {
 }
 console.log( factorial(5) );
 
-// 7. Dado una cadena de caracteres ingresada por el usuario, se pide realizar un script que indique si ese texto es un palíndromo. Ejemplo de palíndromo: “Somos o no somos”.
+/* 7. Dado una cadena de caracteres ingresada por el usuario, se pide realizar un script que
+indique si ese texto es un palíndromo. 
+Ejemplo de palíndromo: “Somos o no somos”. 
+- Función toLowerCase() - toUpperCase();
+- Función length para saber longitud de cadena;
+- Función replace para sacar espacios de la cadena;
+- Función reverse para revertir los caracteres de la cadena;
+- Función split para separar caracteres de la cadena;
+- Función join para juntar caracteres de la cadena;
+*/
 
 let mensaje;
 
 function palindromo(mensaje) {
     console.log(mensaje);
 
-    let arrayCaracteres = mensaje.split('');
+    let arrayCaracteres = mensaje.toLowerCase().replace().split('');
 
     console.log(arrayCaracteres);
 
@@ -132,8 +141,8 @@ function palindromo(mensaje) {
         
     console.log(unirCaracteres);
 
-    return mensaje == reverse.join('') ?
-        'Sí es palindromo'
+    return mensaje == reverse.join('')
+        ?'Sí es palindromo'
         :'No es palindromo'
 }
 

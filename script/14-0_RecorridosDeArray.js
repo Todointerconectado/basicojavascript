@@ -97,8 +97,8 @@ console.log(articulosFiltrados.length); // 2
 
 
 var nombreArticulos = articulos.map(
-    function (articulo) {
-        return articulo.nombre;
+    function (articulos) {
+        return articulos.nombre;
     }
 )
 
@@ -312,3 +312,6 @@ function multiplyElements(array) {
 }
 
 console.log( multiplyElements([2, 4, 5, 6, 8]) );
+
+
+
