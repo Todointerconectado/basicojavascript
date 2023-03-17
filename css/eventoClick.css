@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #containerEventoClick {
+    background: #c7cef5;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+  
+  .box {
+    border: 2px solid black;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  code {
+    border: 2px solid grey;
+    padding: 5px;
+    background: #92d392;
+  }
+  
+  /* Class a agregar con un evento click */
+  .boxRed,
+  .boxBlue {
+    background: red;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .boxBlue {
+    background: #3e3eea;
+  }
+  
+  .btnRed,
+  .btnBlue,
+  .btnElegir {
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  .containerBtnBox3 {
+    border: 2px solid gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+#label1 {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#label1 span {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#valueColor {
+  border-radius: 8px;
+  padding: 10px;
+}

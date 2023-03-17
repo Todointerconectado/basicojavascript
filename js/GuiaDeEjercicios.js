@@ -214,40 +214,75 @@ function calificacion(nota) {
 console.log( calificacion() );
 
 
-// 10. Se pide realizar un script en el que el usuario introduce el número del mes (1 al 12) y devuelve si ese mes tiene 30 o 31 días.
+/* 10. Se pide realizar un script en el que el usuario introduce el número del mes (1 al 12) y devuelve si ese mes tiene 30 o 31 días.
+28 febrero 
+30 abril junio septiembre noviembre
+31 enero marzo mayo julio agosto octubre diciembre
 
-/*
-    28 febrero 
-    30 abril junio septiembre noviembre
-    31 enero marzo mayo julio agosto octubre diciembre
+Programador: Francisco Carusso
+Fecha: 26/02/2023
+Pais: Argentina
  */
 
-function mes(fecha) {
-    if (fecha === Number(fecha)) {
-        
-        if(fecha > 0 && fecha <= 12) {
-            
-            if(fecha == 2) {
-                return 'Tiene 28 días';
-            }
-            else if(fecha == 4 || fecha == 6 || fecha == 9 || fecha == 11) {
-                return 'Tiene 30 días';
-            }
-            else {
-                return 'Tiene 31 días';
-            }
-
+function mes() {
+    let dias;
+    let fecha;
+    let pregunta;
+    const meses = [
+      'enero',
+      'febrero',
+      'marzo',
+      'abril',
+      'mayo',
+      'junio',
+      'julio',
+      'agosto',
+      'septiembre',
+      'octubre',
+      'noviembre',
+      'diciembre',
+    ];
+  
+  
+    while (isNaN(fecha)) {
+      fecha = parseInt(prompt("Ingrese la fecha del mes del 1 al 12: "));
+  
+      if (!isNaN(fecha)) {
+        while (fecha <= 0 || fecha >= 13) {
+          fecha = parseInt(prompt("Ingrese la fecha del mes del 1 al 12: "));
         }
-        else{
-            return 'Ingrese un número mayor a cero y menor = a 12 😁'
+  
+        if (fecha > 0 && fecha <= 12) {
+          if (fecha == 2) {
+            dias = 28;
+          }
+  
+          else if (fecha == 4 || fecha == 6 || fecha == 9 || fecha == 11) {
+            dias = 30;
+          }
+  
+          else {
+            dias = 31;
+          }
+  
+          console.log(`\nMes: ${fecha}, es ${meses[fecha - 1]}, tiene ${dias} días.\n`);
         }
-    }
-    else {
-        return 'Ingrese un parametro Number';
+      }
     }
 }
 
-console.log( mes(12) );
+function ingresarMes() {
+    do {
+      mes();
+      console.log('----------------------------------');
+      pregunta = prompt('Ingresar otro mes? (si/no): ');
+      console.log('----------------------------------\n');
+    }
+    while (pregunta == 'si');
+    console.log('fin. 👍🏼\n');
+}
+
+ingresarMes();
 
 /*
 11. Crear un script que genere una pirámide como el ejemplo con los números del 1 al

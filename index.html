@@ -7,6 +7,7 @@
     <title>Todointerconectado | Ejercicio 1</title>
     <link rel="shortcut icon" href="https://todointerconectado.com/CSS/img/favicons/apple-icon-57x57.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/eventoClick.css">
 </head>
 <body>
     <h1>hello, world!</h1>
@@ -44,7 +45,89 @@
             <p class="lowOrHi"></p>
         </div>
     </section>
+
+    <section id="containerEventoClick">
+        <div id="box1" class="box">
+            <h2>box: 1</h2>
+            <code>
+                let box1 = document.getElementById('box1'); <br>
+                let btn = document.getElementById('btnRed'); <br>
+                let contador = 0; <br> <br>
+    
+                function cambiarColor() { <br>
+                &nbsp; if (contador == 0) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; box1.classList.add('boxRed'); <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; btn.classList.add('boxRed'); <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; contador = 1; <br>
+                &nbsp;&nbsp;} <br>
+                &nbsp;&nbsp;else { <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;  box1.classList.remove('boxRed'); <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;  btn.classList.remove('boxRed'); <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;  contador = 0; <br>
+                &nbsp;&nbsp;} <br>
+              } <br> <br>
+              
+              // Evento <br>
+              btn.addEventListener('click', cambiarColor, true);
+            </code>
+        
+        </div>
+        <button id="btnRed" class="btnRed">btn: Cambiar color a red</button>
+        
+        <div id="box2" class="box">
+            <h2>box: 2</h2>
+            <code>
+              let box2 = document.querySelector("#box2"); <br>
+              let box2 = document.querySelector("#box2"); <br>
+              let btnBlue = document.querySelector("#btnBlue"); <br> <br>
+              
+              function cambiarColorBlue() { <br>
+                &nbsp;&nbsp; box2.classList.toggle("boxBlue"); <br>
+                &nbsp;&nbsp; btnBlue.classList.toggle("boxBlue"); <br>
+              } <br> <br>
+              
+              // Evento <br>
+              btnBlue.addEventListener('click', cambiarColorBlue, true); <br>
+            </code>
+        </div>
+        <button id="btnBlue" class="btnBlue">btnBlue: Cambiar color a blue</button>
+
+        <div id="box3" class="box">
+            <h2>box: 3</h2>
+            <code>
+                let box2 = document.querySelector("#box2"); <br>
+                let btnBlue = document.querySelector("#btnBlue"); <br> <br>
+                // Evento <br>
+            </code>
+        </div>
+    
+        <form id="form1" class="containerBtnBox3">
+            <label id="label1" for="valueColor">
+                <span>color en ingles o hexadecimal:</span>
+                <input type="text" id="valueColor" list="frameworks" required placeholder="Ingresa un color:">
+            </label>
+            <datalist id="frameworks">
+                    <option value="blue">blue</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Pink">Pink</option>
+                    <option value="white">white</option>
+                    <option value="Black">Black</option>
+                    <option value="purple">purple</option>
+                    <option value="orange">orange</option>
+                    <option value="salmon">salmon</option>
+            </datalist>
+            <button type="submit" id="btnEnviarColor" class="btnElegir">Enviar color ingresado</button>
+        </form>
+    </section>
+
+    <a href="./html/clase5.html" target="_blank">Metodos 1 JavaScript</a>
+    <a href="./html/metodosJS.html" target="_blank">Metodos 2 JavaScript</a>
+
+
+    <script src="./js/clase_1.js"></script>
+    <script src="./js/clickAttribute.js"></script>
+    <script src="./js/eventoClick.js"></script>
 </body>
-<script src="./js/clase_1.js"></script>
-<script src="./js/onclick.js"></script>
 </html>

@@ -58,7 +58,8 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
 * `B` [13.1 Objects Función constructora](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-1_objectsFuncionConstructora.js) - crear varios objetos a partir de nueva información.
 * `B` [14.0 Recorridos de Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/4-0_RecorridosDeArray.js) - Distintas funciones para recorrer un array
 * `B` [14.1 Eliminar Elementos de un Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/14-1_eliminarElementosDeUnArray.js) - Distintas funciones para aplicar.
-* `B` [15 Desafios](https://github.com/Todointerconectado/basicojavascript/blob/main/script/15_desafios.js) - Desafios para aplicar lo aprendido.
+* `B` [15.0 Desafios](https://github.com/Todointerconectado/basicojavascript/blob/main/script/15-0_dom.js) - Principios del DOM.
+* `B` [15.1 Desafios](https://github.com/Todointerconectado/basicojavascript/blob/main/script/15-1_desafios.js) - Desafios para aplicar lo aprendido.
 
 ## Install node.js:
 
