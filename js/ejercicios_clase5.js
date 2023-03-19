@@ -44,7 +44,7 @@ function numAleatorio() {
     return li4.textContent = `El número minimo es: ${min}. El número maximo es: ${max}. 
         El número aleatorio entre ellos es: ${resultado}.`;
 }
-numAleatorio();
+// numAleatorio();
 
 
 // 5. Rellena un array con los números del 1 al 10. Muéstralo por la consola.
@@ -98,7 +98,7 @@ function rellenarArrayNumAleatorios() {
         `
     );
 }
-rellenarArrayNumAleatorios();
+// rellenarArrayNumAleatorios();
 
 
 //8. Realiza un script que pida cadenas de texto hasta que se ingrese la palabra “cancelar”.
@@ -119,7 +119,7 @@ function stringOfText() {
 
     return li8.textContent = `Array cargado: ${array}`;
 }
-stringOfText();
+// stringOfText();
 
 // 9. Hacer un formulario con dos campos (pesos y dólares) que al presionar un botón convierte de dólares a pesos. Supondremos que un dólar son trescientos pesos. Mostrar el resultado elemento de html.
 // 10. 
@@ -180,5 +180,83 @@ formCaja.addEventListener('submit', pedidoCaja);
 // Debemos indicar en un cuadro de texto si el usuario gana, falla el número o pierde.
 
 
+let formAdivina = document.getElementById('formAdivina');
 
+// Contenedores para los resultados.
+let Attempts = document.getElementById('Attempts');
+let lastResult = document.getElementById('lastResult');
+let closeness = document.getElementById('closeness');
 
+let numAleatorio13 = Number(Math.floor( (Math.random() * 5) + 0 ));
+let contador = 1;
+let buttonPlay;
+
+function resetGame() {
+    contador = 1;
+    let resultsTable = document.getElementById('resultsTable');
+    for (let i = 0; i < resultsTable.length; i++) {
+        resultsTable[i].textContent = ' ';
+    }
+
+    buttonPlay.parentNode.removeChild(buttonPlay);
+
+    inputAdivina.disabled = false;
+    submitPlay.disabled = false;
+    inputAdivina.value = '';
+    Attempts.textContent = '';
+    lastResult.textContent = '';
+    closeness.textContent = '';
+    lastResult.style.backgroundColor = 'white';
+
+    numAleatorio13 = Number(Math.floor( (Math.random() * 5) + 0 ));
+}
+
+function setGameOver() {
+    inputAdivina.disabled = true;
+    submitPlay.disabled = true;
+    buttonPlay = document.createElement('button');
+    buttonPlay.textContent = 'Iniciar nuevo juego';
+    submitPlay.after(buttonPlay);
+    buttonPlay.addEventListener('click', resetGame);
+}
+
+function adivinaElNumber(event) {
+    event.preventDefault();
+    let {inputAdivina, submitPlay} = event.target;
+    let valorIngresado = Number(inputAdivina.value);
+
+    if(contador === 1) {
+        Attempts.textContent = 'Intentos anteriores: ';
+    }
+    Attempts.textContent += ` ${valorIngresado} `;
+
+    if(valorIngresado === numAleatorio13) {
+        lastResult.textContent = '🥳 ¡Felicidades! 🦟 ¡Lo adivinaste!';
+        lastResult.style.backgroundColor = 'green';
+        closeness.textContent = '🤩👍🏽';
+        setGameOver(); // establecer Fin del juego
+    }
+    else if (contador === 3) {
+        lastResult.textContent = '¡¡Fin del juego!!';
+        setGameOver();
+    }
+    else {
+        lastResult.textContent = 'Incorrecto';
+        lastResult.style.backgroundColor = 'red';
+        lastResult.style.color = 'white';
+
+        if(valorIngresado < numAleatorio13){
+            closeness.textContent = '¡El número es muy bajo!';
+            inputAdivina.value = false;
+        }
+        else if(valorIngresado > numAleatorio13) {
+            closeness.textContent = '¡El número es muy grande!';
+            inputAdivina.value = false;
+        }
+    }
+
+    contador++;
+    valorIngresado.value = '';
+}
+
+formAdivina.addEventListener('submit', adivinaElNumber);

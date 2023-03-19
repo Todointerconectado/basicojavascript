@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background: antiquewhite;
 }
 
 #ol {
@@ -20,6 +21,7 @@ body {
     box-shadow: 3px 6px 10px grey;
     padding: 10px;
     margin-bottom: 15px;
+    background: white;
 }
 
 .forms fieldset {
@@ -27,6 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
 }
 
 legend {
@@ -77,6 +80,17 @@ textarea {
 .required {
     color: red;
 }
+
+/* 13 */
+.submitReset {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
 
 
 

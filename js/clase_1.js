@@ -206,26 +206,25 @@ const miTitulo = document.querySelector('h2');
 miTitulo.textContent='¡Texto cambiado con una función!';
 
 
-
-
-
-
 // --------------------------------------------------
 // Juego de adivinanzas de números:
 
 // Añadiendo variables para guardar los datos:
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 
-const guesses = document.querySelector('.guesses');
-const lastResult = document.querySelector('.lastResult');
-const lowOrHi = document.querySelector('.lowOrHi');
+const guesses = document.querySelector('.guesses'); // suposiciones
+const lastResult = document.querySelector('.lastResult'); // Ultimo resultado
+const lowOrHi = document.querySelector('.lowOrHi'); // bajo o hola
 
-const guessSubmit = document.querySelector('.guessSubmit');
-const guessField = document.querySelector('.guessField');
+const guessSubmit = document.querySelector('.guessSubmit'); // adivinar Enviar
+const guessField = document.querySelector('.guessField'); // adivinar campo
+const submit = document.querySelector('#submit');
 
 let guessCount = 1;
 let resetButton;
 guessField.focus();
+
+
 
 
 // Funciones
@@ -234,7 +233,7 @@ function checkGuess() {
     if (guessCount === 1) {
         guesses.textContent = 'Intentos anteriores: ';
     }
-    guesses.textContent += userGuess + ' ';
+    guesses.textContent += ' ' + userGuess + ' ';
 
     if (userGuess === randomNumber) {
         lastResult.textContent = '¡Felicidades! ¡Lo adivinaste!';
@@ -258,15 +257,15 @@ function checkGuess() {
     guessField.value = '';
     guessField.focus();
 }
-
 guessSubmit.addEventListener('click', checkGuess);
+
 
 function setGameOver() {
     guessField.disabled = true;
     guessSubmit.disabled = true;
     resetButton = document.createElement('button');
     resetButton.textContent = 'Iniciar nuevo juego';
-    document.body.append(resetButton);
+    submit.after(resetButton);
     resetButton.addEventListener('click', resetGame);
 }
 
@@ -275,7 +274,7 @@ function resetGame() {
 
     const resetParas = document.querySelectorAll('.resultParas p');
     for (let i = 0 ; i < resetParas.length ; i++) {
-        resetParas[i].textContent = '';
+        resetParas[i].textContent = ' ';
     }
 
     resetButton.parentNode.removeChild(resetButton);

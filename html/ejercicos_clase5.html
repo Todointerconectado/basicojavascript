@@ -75,11 +75,11 @@
                     <legend> El valor del dólar lo tomamos a 300 pesos Argentinos. </legend>
                     
                     <label for="pesos">09. Ingresar cantidad de pesos:</label>
-                    <input id="pesos" type="number" step="any" min="0" name="pesos" placeholder="Ingresar pesos..."><br>
+                    <input id="pesos" type="number" step="any" min="0" name="pesos" placeholder="Ingresar pesos...">
                     
                     <label for="dolar">10. Ingresar cantidad de dolares:</label>
-                    <input id="dolar" type="number" step="any" min="0" name="dolar" placeholder="Ingresar dólar..."><br>
-                    <div>
+                    <input id="dolar" type="number" step="any" min="0" name="dolar" placeholder="Ingresar dólar...">
+                    <div class="submitReset">
                         <button id="btn" type="submit" name="submit">Convertir</button>
                         <input id="reset" type="reset" name="reset">
                     </div>
@@ -153,7 +153,28 @@
                 </fieldset>
             </form>
         </li>
-        <li id="li13" class="item"></li>
+        <li id="li13" class="item">
+            <form id="formAdivina" class="forms">
+                <fieldset>
+                    <legend>Juguemos adivina el número!!</legend>
+
+                    <span>Tiene 3 intentos:</span>
+                    <label for="inputAdivina">
+                        <span>Ingresa un número del (0 al 5): 👉🏽</span>
+                        <input id="inputAdivina" name="adivina" type="number" required min="0" max="5" placeholder="Núm...">
+                    </label>
+                    <div class="submitReset">
+                        <input id="submitPlay" type="submit" value="Verificar">
+                    </div>
+
+                    <div id="resultsTable">     <!-- tabla de resultados -->
+                        <p id="Attempts">  </p> <!-- intentos -->
+                        <p id="lastResult"></p> <!-- Ultimo resultado -->
+                        <p id="closeness"> </p> <!-- cercanía -->
+                    </div>
+                </fieldset>
+            </form>
+        </li>
         <li id="li14" class="item"></li>
     </ol>
 
