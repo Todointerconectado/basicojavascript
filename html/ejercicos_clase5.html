@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- meta Principales -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <!-- meta SEO -->
+    <title>Ejercicios clase 5 - Francisco Carusso</title>
+    <meta name="language" content="en">
+    <meta name="title" content="Todointerconectado | Francisco Carusso">
+    <meta name="generator" content="todointerconectado.com">
+    <meta name="author" lang="en" content="Francisco Carusso | Todointerconectado">
+    <meta name="application-name" content="Todointerconectado">
+    <meta name="copyright" content="Copyright &#169; todointerconectado.com">
+    <meta name="description" content="Soy Francisco Carusso Frontend Developer, Fundador de Todointerconectado y subo videos a YouTube donde aprenderás programación front-end html5, css3, javascript">
+    <meta name="keywords" content="frontend, html5, css3, javascript, francisco carusso, todointerconectado, front-end developer, programación">
+    <meta name="robots" content="index, follow">
+    <meta name="audience" content="all">
+    <meta name="category" content="tecnologías">
+    <meta itemprop="name" content="Todointerconectado">
+    <meta itemprop="telephone" content="+5491154120432">
+    <meta itemprop="image" content="https://todointerconectado.com/basicojavascript/css/images/miniatura.png">
+
+    <!-- meta Facebook SEO: The Open Graph protocol -->
+    <meta property="og:title" content="Todointerconectado | Francisco Carusso">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://todointerconectado.com">
+    <meta property="og:image" content="https://todointerconectado.com/basicojavascript/css/images/miniatura.png">
+    <meta property="og:image:alt" content="Banner de portada de página">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1179">
+    <meta property="og:image:height" content="438">
+    <meta property="og:description" content="Soy Francisco Carusso Frontend Developer, Fundador de Todointerconectado y subo videos a YouTube donde aprenderás programación front-end html5, css3, javascript">
+    <meta property="og:site_name" content="Todointerconectado">
+    <!-- Languages -->
+    <meta content="es_ES" property="og:locale">
+    <meta content="en_US" property="og:locale:alternate">
+    <meta content="es_MX" property="og:locale:alternate">
+    <meta content="fr_FR" property="og:locale:alternate">
+    <meta content="fr_CA" property="og:locale:alternate">
+    <meta content="it_IT" property="og:locale:alternate">
+    <meta content="pt_BR" property="og:locale:alternate">
+    <meta content="hi_IN" property="og:locale:alternate">
+    <meta content="de_DE" property="og:locale:alternate">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Todointerconect">
+    <meta name="twitter:creator" content="@Todointerconect">
+    <meta name="twitter:title" content="Todointerconectado | Francisco Carusso">
+    <meta name="twitter:description" content="Soy Francisco Carusso Frontend Developer, Fundador de Todointerconectado y subo videos a YouTube donde aprenderás programación front-end html5, css3, javascript">
+    <meta property="twitter:url" content="https://todointerconectado.com/">
+    <meta name="twitter:image" content="https://todointerconectado.com/basicojavascript/css/images/miniatura.png">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://todointerconectado.com/CSS/img/favicons/apple-icon-57x57.png">
+    <link rel="stylesheet" href="/css/ejercicios_clase5.css">
+
+</head>
+<body>
+    <h1>Guía de ejercicios - Clase 5</h1>
+
+    <ol id="ol">
+        <li id="li1" class="item"></li>
+        <li id="li2" class="item"></li>
+        <li id="li3" class="item"></li>
+        <li id="li4" class="item"></li>
+        <li id="li5" class="item"></li>
+        <li id="li6" class="item"></li>
+        <li id="li7" class="item"></li>
+        <li id="li8" class="item"></li>
+        <li id="li9" class="item">
+            <form id="form" class="forms">
+                <fieldset>
+                    <legend> El valor del dólar lo tomamos a 300 pesos Argentinos. </legend>
+                    
+                    <label for="pesos">09. Ingresar cantidad de pesos:</label>
+                    <input id="pesos" type="number" step="any" min="0" name="pesos" placeholder="Ingresar pesos..."><br>
+                    
+                    <label for="dolar">10. Ingresar cantidad de dolares:</label>
+                    <input id="dolar" type="number" step="any" min="0" name="dolar" placeholder="Ingresar dólar..."><br>
+                    <div>
+                        <button id="btn" type="submit" name="submit">Convertir</button>
+                        <input id="reset" type="reset" name="reset">
+                    </div>
+                </fieldset>
+            </form>
+        </li>
+        <li id="li11" value="11" class="item">
+            <form id="formGrados" class="forms">
+                <fieldset>
+                    <legend> Convertir de centigrados a Fahrenheit </legend>
+                    <label for="centigrados">Ingrese los grados centigrados (°C):</label>
+                    <input id="centigrados" type="number" step="any" name="centigrados" placeholder="Ingrese los grados centigrados..."><br>
+                    <input type="submit" value="Convertir">
+                </fieldset>
+            </form>
+        </li>
+        <li id="li12" class="item">
+            <form id="formCaja" class="forms">
+                <fieldset>
+                    <legend> Solicitar el envío de una caja de cartón </legend>
+
+                    <label for="nombre">
+                        <span>
+                            <span class="required">*</span>
+                            Nombre del cliente:
+                        </span> 
+                        <input id="nombre" type="text" required name="nombre" placeholder="Escriba su nombre...">
+                    </label>
+
+                    <label for="material">
+                        <span>
+                            <span class="required">*</span>
+                            Material de la caja:
+                        </span>
+                        <input id="material" type="text" list="frameworks" required placeholder="Seleccionar material...">
+                    </label>
+
+                    <datalist id="frameworks">
+                        <option value="madera">madera</option>
+                        <option value="carton">carton</option>
+                        <option value="papel">papel</option>
+                        <option value="acero">acero</option>
+                    </datalist>
+
+                    <fieldset class="formCajaRadio">
+                        <legend><span class="required">*</span> Seleccione una dimención para la caja:</legend>
+                        
+                        <label for="diminuta">
+                            <input type="radio" required name="valorRadio" id="diminuta" value="diminuta">
+                            <span>Diminuta</span>
+                        </label>
+                        <label for="mediana">
+                            <input type="radio" required name="valorRadio" id="mediana" value="mediana">
+                            <span>Mediana</span>
+                        </label>
+                        <label for="grande">
+                            <input type="radio" required name="valorRadio" id="grande" value="grande">
+                            <span>Grande</span>
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="Comentario">
+                        <legend>
+                            <label for="comentario"> Comentario: </label>
+                        </legend>
+                        <textarea name="comentario" id="comentario" sentences cols="37%" rows="5" placeholder="Escribe tu comentario..."></textarea>
+                    </fieldset>
+
+                    <input type="submit" value="Enviar">
+                    <span id="solicitud">Solicitud pendiente...</span>
+                </fieldset>
+            </form>
+        </li>
+        <li id="li13" class="item"></li>
+        <li id="li14" class="item"></li>
+    </ol>
+
+    <script defer src="/js/ejercicios_clase5.js"></script>
+</body>
+</html>
+
+
+

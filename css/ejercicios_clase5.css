@@ -1,0 +1,84 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#ol {
+    display: inline-block;
+}
+
+.item {
+    border: 1px solid grey;
+    box-shadow: 3px 6px 10px grey;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.forms fieldset {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+legend {
+    text-align: center;
+}
+
+#centigrados {
+    width: 210px;
+}
+
+#formCaja fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#formCaja .formCajaRadio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.formCajaRadio label {
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+textarea {
+    padding: 10px;
+    height: 100px;
+}
+
+#solicitud {
+    border: 1px solid grey;
+    padding: 5px;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+}
+
+.required {
+    color: red;
+}
+
+
+
+
+

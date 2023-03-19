@@ -91,7 +91,6 @@ list.appendChild(newElementAppendChild);
     se puede cambiar el indice[i] para la position.
     El elemento newElement se colocaria antes del elemento [i]
 */
-
 list.insertBefore(newElementInsertBefore, list.children[2]);
 
 
