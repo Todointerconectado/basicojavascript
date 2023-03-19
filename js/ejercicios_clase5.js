@@ -44,7 +44,7 @@ function numAleatorio() {
     return li4.textContent = `El número minimo es: ${min}. El número maximo es: ${max}. 
         El número aleatorio entre ellos es: ${resultado}.`;
 }
-// numAleatorio();
+numAleatorio();
 
 
 // 5. Rellena un array con los números del 1 al 10. Muéstralo por la consola.
@@ -98,7 +98,7 @@ function rellenarArrayNumAleatorios() {
         `
     );
 }
-// rellenarArrayNumAleatorios();
+rellenarArrayNumAleatorios();
 
 
 //8. Realiza un script que pida cadenas de texto hasta que se ingrese la palabra “cancelar”.
@@ -119,7 +119,7 @@ function stringOfText() {
 
     return li8.textContent = `Array cargado: ${array}`;
 }
-// stringOfText();
+stringOfText();
 
 // 9. Hacer un formulario con dos campos (pesos y dólares) que al presionar un botón convierte de dólares a pesos. Supondremos que un dólar son trescientos pesos. Mostrar el resultado elemento de html.
 // 10. 

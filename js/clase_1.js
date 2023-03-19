@@ -216,16 +216,13 @@ const guesses = document.querySelector('.guesses'); // suposiciones
 const lastResult = document.querySelector('.lastResult'); // Ultimo resultado
 const lowOrHi = document.querySelector('.lowOrHi'); // bajo o hola
 
-const guessSubmit = document.querySelector('.guessSubmit'); // adivinar Enviar
+const guessSubmit = document.querySelector('.guessSubmit'); // boton Enviar 
 const guessField = document.querySelector('.guessField'); // adivinar campo
 const submit = document.querySelector('#submit');
 
 let guessCount = 1;
 let resetButton;
 guessField.focus();
-
-
-
 
 // Funciones
 function checkGuess() {
@@ -240,25 +237,28 @@ function checkGuess() {
         lastResult.style.backgroundColor = 'green';
         lowOrHi.textContent = '';
         setGameOver();
-    } else if (guessCount === 10) {
+    }
+    else if (guessCount === 10) {
         lastResult.textContent = '¡¡¡Fin del juego!!!';
         setGameOver();
-    } else {
+    } 
+    else {
         lastResult.textContent = '¡Incorrecto!';
         lastResult.style.backgroundColor = 'red';
+        
         if(userGuess < randomNumber) {
             lowOrHi.textContent = '¡El número es muy bajo!';
-        } else if(userGuess > randomNumber) {
-        lowOrHi.textContent = '¡El número es muy grande!';
+        }
+        else if(userGuess > randomNumber) {
+            lowOrHi.textContent = '¡El número es muy grande!';
+        }
     }
-}
 
     guessCount++;
     guessField.value = '';
     guessField.focus();
 }
 guessSubmit.addEventListener('click', checkGuess);
-
 
 function setGameOver() {
     guessField.disabled = true;
@@ -271,12 +271,10 @@ function setGameOver() {
 
 function resetGame() {
     guessCount = 1;
-
     const resetParas = document.querySelectorAll('.resultParas p');
     for (let i = 0 ; i < resetParas.length ; i++) {
         resetParas[i].textContent = ' ';
     }
-
     resetButton.parentNode.removeChild(resetButton);
 
     guessField.disabled = false;
