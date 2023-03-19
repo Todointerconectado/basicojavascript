@@ -44,7 +44,7 @@ function numAleatorio() {
     return li4.textContent = `El número minimo es: ${min}. El número maximo es: ${max}. 
         El número aleatorio entre ellos es: ${resultado}.`;
 }
-// numAleatorio();
+numAleatorio();
 
 
 // 5. Rellena un array con los números del 1 al 10. Muéstralo por la consola.
@@ -98,7 +98,7 @@ function rellenarArrayNumAleatorios() {
         `
     );
 }
-// rellenarArrayNumAleatorios();
+rellenarArrayNumAleatorios();
 
 
 //8. Realiza un script que pida cadenas de texto hasta que se ingrese la palabra “cancelar”.
@@ -119,11 +119,10 @@ function stringOfText() {
 
     return li8.textContent = `Array cargado: ${array}`;
 }
-// stringOfText();
+stringOfText();
 
 // 9. Hacer un formulario con dos campos (pesos y dólares) que al presionar un botón convierte de dólares a pesos. Supondremos que un dólar son trescientos pesos. Mostrar el resultado elemento de html.
 // 10. 
-
 let form  = document.getElementById('form');
 let span1 = document.createElement('span');
 let span2 = document.createElement('span');
@@ -146,10 +145,8 @@ form.addEventListener('submit', convertirMoneda);
 
 // 11. Hacer un formulario que convierta de grados centígrados a grados Fahrenheit. 
 // Para ello deberá multiplicar por 9/5 y sumar 32. Tener en cuenta que 30 grados centígrados son 86 grados fahrenheit.
-
 let formGrados = document.querySelector('#formGrados');
 let span3 = document.createElement('span');
-
 function convertirTemperature(event) {
     event.preventDefault();
     
@@ -165,7 +162,6 @@ formGrados.addEventListener('submit', convertirTemperature);
 
 
 // 12. Hacer un formulario para solicitar el envío de una caja de cartón. En el formulario podremos especificar las características de la caja. Ejemplo:
-
 let formCaja = document.querySelector('#formCaja');
 let imprimirSolicitud = document.querySelector('#solicitud');
 
@@ -177,7 +173,6 @@ function pedidoCaja(event) {
     imprimirSolicitud.innerHTML = `${nombre.value} ha pedido una caja de ${material.value} con una dimensión ${valorRadio.value}. ${comentario.value}`;
 }
 formCaja.addEventListener('submit', pedidoCaja);
-
 
 
 // 13. A través de un formulario, el usuario debe introducir un número secreto que estará entre 0 y 5.
