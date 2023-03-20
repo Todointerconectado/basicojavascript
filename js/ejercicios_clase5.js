@@ -128,7 +128,7 @@ let span1 = document.createElement('span');
 let span2 = document.createElement('span');
 function convertirMoneda(event) {
     event.preventDefault(); // controlamos los eventos que pasen en el formulario.
-    let {pesos, dolar} = event.target; // Accedo a los valores del evento del form.
+    let {pesos, dolar, reset} = event.target; // Accedo a los valores del evento del form.
 
     let pesosADolar = pesos.value / 300;
     span1.textContent = ` Pesos a Dólares: ${pesosADolar.toFixed(3)}💲`;
@@ -139,6 +139,11 @@ function convertirMoneda(event) {
     span2.textContent = ` Dólares a Pesos: ${DolarAPesos.toFixed(2)}💲`;
     dolar.after(span2);
 
+    reset.addEventListener('click', () => {
+        span1.textContent = '';
+        span2.textContent = '';
+    });
+
 }
 form.addEventListener('submit', convertirMoneda);
 
@@ -147,6 +152,7 @@ form.addEventListener('submit', convertirMoneda);
 // Para ello deberá multiplicar por 9/5 y sumar 32. Tener en cuenta que 30 grados centígrados son 86 grados fahrenheit.
 let formGrados = document.querySelector('#formGrados');
 let span3 = document.createElement('span');
+
 function convertirTemperature(event) {
     event.preventDefault();
     
@@ -156,6 +162,8 @@ function convertirTemperature(event) {
 
     span3.textContent = `Valor en Grados fahrenheit (°F): ${centigradosAFahrenheit.toFixed(2)}`;
     centigrados.after(span3);
+
+    centigrados.value = '';
 
 }
 formGrados.addEventListener('submit', convertirTemperature);
@@ -260,3 +268,29 @@ function adivinaElNumber(event) {
 }
 
 formAdivina.addEventListener('submit', adivinaElNumber);
+
+
+
+// 14. Dado un input y un botón, escribir nombres de personas e ir mostrando en una lista desordenada a medida que se agregan.
+
+let form14 = document.getElementById('form14');
+
+function cargarName14(event) {
+    event.preventDefault();
+    console.log(event);
+    let {name14, cargarName14, reset14} = event.target;
+
+    let ul14 = document.getElementById('ul14');
+    let li14 = document.createElement('li');
+    li14.textContent = name14.value;
+    ul14.append(li14);
+
+    name14.value = ''; // Se limpia el ingreso para el nuevo nombre.
+
+    // Reset la lista creada.
+    reset14.addEventListener('click', () => {
+        ul14.textContent = '';
+    });
+}
+form14.addEventListener('submit', cargarName14);
+

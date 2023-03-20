@@ -91,8 +91,10 @@
                 <fieldset>
                     <legend> Convertir de centigrados a Fahrenheit </legend>
                     <label for="centigrados">Ingrese los grados centigrados (°C):</label>
-                    <input id="centigrados" type="number" step="any" name="centigrados" placeholder="Ingrese los grados centigrados..."><br>
-                    <input type="submit" value="Convertir">
+                    <input id="centigrados" type="number" required step="any" name="centigrados" placeholder="Ingrese los grados centigrados...">
+                    <div>
+                        <input type="submit" value="Convertir">
+                    </div>
                 </fieldset>
             </form>
         </li>
@@ -175,7 +177,23 @@
                 </fieldset>
             </form>
         </li>
-        <li id="li14" class="item"></li>
+        <li id="li14" class="item">
+            <form id="form14"  class="forms">
+                <fieldset>
+                    <legend>Generemos una lista de nombres:</legend>
+                    <label for="name14">
+                        Ingrese el nombre: 
+                        <input id="name14" type="text" required placeholder="Ingrese el nombre...">
+                    </label>
+                    <div>
+                        <input id="cargarName14" type="submit" value="Cargar nombre">
+                        <input id="reset14" type="reset" value="limpiar lista">
+                    </div>
+                    
+                    <ul id="ul14"></ul>
+                </fieldset>
+            </form>
+        </li>
     </ol>
 
     <script defer src="../js/ejercicios_clase5.js"></script>
