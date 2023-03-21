@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* ---------- Variables ---------- */
+:root{
+    --colorTwitter: rgb(4, 171, 235);
+    --colorFacebook: rgb(64, 100, 172);
+    --colorLinkedin: rgb(39, 100, 172);
+    --colorIconRedes: rgb(0, 0, 0);
+    --colorBtnWhite: rgb(255, 255, 255);
+    --colorBtnHover: rgb(249, 225, 221);
+    --colorBackgroundShadow :rgb(128, 128, 128, 0.5);
+    --fontFamilyTitle: 'Noto Sans', sans-serif;
+}
+
+/* ---------- Inicialización de los estilos ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+html {
+    height: auto;
+    font-size: 62.5%;
+}
+
+/* ---------- Contenedor Padre General ---------- */
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../images/clase6/bg-palm.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 1.6rem;
+}
+
+#header,
+#main,
+#main nav,
+.containerItem,
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------- HEADER ---------- */
+#header {
+    padding-top: 142px;
+    gap: 36px;
+    font-weight: bold;
+    font-size: 2.2rem;
+    font-family: var(--fontFamilyTitle);
+    text-align: center;
+}
+.containerProfile {
+    border-radius: 50%;
+    max-width: 150px;
+    transition: box-shadow ease 300ms ;
+}
+.containerProfile:hover{
+    box-shadow: 6px 8px 10px var(--colorBackgroundShadow);
+}
+.profileImg {
+    border-radius: 50%;
+    display: block;
+}
+
+
+/* ---------- MAIN ---------- */
+.containerItem {
+    padding-top: 70px;
+    padding-bottom: 175px;
+    list-style: none;
+    width: 100%;
+    gap: 20px;
+}
+.item {
+    display: flex;
+    justify-content: center;
+}
+.a {
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 15px;
+    background: var(--colorBtnWhite);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow ease 300ms;
+}
+
+.a:hover {
+    box-shadow: 6px 8px 10px var(--colorBackgroundShadow);
+    background: var(--colorBtnHover);
+}
+
+.la-check-circle {
+    border-radius: 50%;
+    color: rgb(4, 142, 89);
+    width: auto;
+    font-size: 3rem;
+}
+#span {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------- FOOTER ---------- */
+#footer,
+#footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.containerRedes {
+    padding-bottom: 70px;
+    list-style: none;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.itemRedes {
+    display: flex;
+    width: auto;
+}
+
+/* icon */
+.itemRedes a {
+    border-bottom: 2px solid transparent;
+    font-size: 3.5rem;
+    color: var(--colorIconRedes);
+    transition: color ease 300ms;
+}
+
+.la-twitter:hover {
+    border-bottom: 2px solid var(--colorTwitter);
+    color: var(--colorTwitter);
+}
+.la-facebook-f:hover {
+    border-bottom: 2px solid var(--colorFacebook);
+    color: var(--colorFacebook);
+}
+.la-linkedin-in:hover {
+    border-bottom: 2px solid var(--colorLinkedin);
+    color: var(--colorLinkedin);
+}
+
+.copyright {
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(60, 60, 60);
+}
