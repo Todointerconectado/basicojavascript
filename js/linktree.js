@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('The DOM document has been fully loaded.');
 });
 
-
 let gender = document.getElementById('gender');
 let man = document.getElementById('man');
 let women = document.getElementById('women');
