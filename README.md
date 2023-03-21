@@ -35,7 +35,10 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
     </a>
 </p>
 <h3 align="left">Página del proyecto:</h3>
-<a href="https://todointerconectado.com/basicojavascript" target="_black">https://todointerconectado.com/basicojavascript</a>
+
+*  <a href="https://todointerconectado.com/basicojavascript" target="_black">https://todointerconectado.com/basicojavascript</a>
+*  <a href="https://todointerconectado.com/basicojavascript/html/linktree.html" target="_black">https://todointerconectado.com/basicojavascript/html/linktree.html</a>
+
 
 ### Indice
 
