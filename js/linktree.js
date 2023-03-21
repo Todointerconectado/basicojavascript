@@ -11,10 +11,9 @@ function selectGender(event) {
 
     let etiqueta = event.target.tagName;
     let id  = event.target.value;
-    // let src = profileImg.getAttribute('src');
 
     if(event.target && etiqueta === 'INPUT') {
-
+        
         if(id === 'man' && women.classList.value === 'btnGender btnGenderSwitchedOn'){
             women.classList.remove('btnGenderSwitchedOn');
             profileImg.setAttribute('src', '../images/linktree/avatar-ej1.png');
@@ -24,7 +23,7 @@ function selectGender(event) {
             profileImg.setAttribute('src', '../images/linktree/avatar-ej2.png');
         }
 
-        event.target.classList.toggle('btnGenderSwitchedOn');
+        event.target.classList.add('btnGenderSwitchedOn');
     }
 }
 
