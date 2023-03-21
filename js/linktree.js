@@ -13,7 +13,7 @@ function selectGender(event) {
     let id  = event.target.value;
     // let src = profileImg.getAttribute('src');
 
-    if(event.target && etiqueta === 'BUTTON') {
+    if(event.target && etiqueta === 'INPUT') {
 
         if(id === 'man' && women.classList.value === 'btnGender btnGenderSwitchedOn'){
             women.classList.remove('btnGenderSwitchedOn');
