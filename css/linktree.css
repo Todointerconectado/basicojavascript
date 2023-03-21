@@ -8,7 +8,15 @@
     --colorIconRedes: rgb(0, 0, 0);
     --colorBtnWhite: rgb(255, 255, 255);
     --colorBtnHover: rgb(249, 225, 221);
-    --colorBackgroundShadow :rgb(128, 128, 128, 0.5);
+
+    --colorBackgroundShadow:rgb(128, 128, 128, 0.5);
+
+    --colorBtnStart: linear-gradient(145deg, #f0f0f0, #cacaca);
+    --colorBtnBoxShadowStart: 5px 5px 5px #747474, -5px -5px 5px #ffffff;
+
+    --colorBtnSwitchedOn: #e0e0e0;
+    --colorBtnBoxShadowSwitchedOn: inset 5px 5px 5px #747474, inset -5px -5px 5px #ffffff;
+
     --fontFamilyTitle: 'Noto Sans', sans-serif;
 }
 
@@ -29,7 +37,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("../images/clase6/bg-palm.jpg");
+    background-image: url("../images/linktree/bg-palm.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -49,12 +57,45 @@ html {
 /* ---------- HEADER ---------- */
 #header {
     padding-top: 142px;
-    gap: 36px;
+    gap: 20px;
     font-weight: bold;
     font-size: 2.2rem;
     font-family: var(--fontFamilyTitle);
     text-align: center;
 }
+
+#gender {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.btnGender {
+    border: none;
+    border-radius: 50px;
+    background: var(--colorBtnWhite);
+    width: 150px;
+    height: 40px;
+    font-family: var(--fontFamilyTitle);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 8px;
+    cursor: pointer;
+    transition: box-shadow ease 300ms;
+
+    background: var(--colorBtnStart);
+    box-shadow: var(--colorBtnBoxShadowStart);
+}
+
+/* Aggregate with JavaScript */
+.btnGenderSwitchedOn {
+    background: var(--colorBtnSwitchedOn);
+    box-shadow: var(--colorBtnBoxShadowSwitchedOn);
+}
+
 .containerProfile {
     border-radius: 50%;
     max-width: 150px;
