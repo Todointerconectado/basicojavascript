@@ -28,3 +28,6 @@ function selectGender(event) {
 }
 
 gender.addEventListener('click', selectGender);
+
+
+

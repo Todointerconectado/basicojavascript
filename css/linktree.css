@@ -100,14 +100,16 @@ html {
 .containerProfile {
     border-radius: 50%;
     max-width: 150px;
-    transition: box-shadow ease 300ms ;
 }
-.containerProfile:hover{
-    box-shadow: 6px 8px 10px var(--colorBackgroundShadow);
-}
+
 .profileImg {
     border-radius: 50%;
     display: block;
+    transition: box-shadow ease 300ms;
+}
+
+.profileImg:hover{
+    box-shadow: 6px 8px 10px var(--colorBackgroundShadow);
 }
 
 
@@ -152,7 +154,7 @@ html {
     width: auto;
     font-size: 3rem;
 }
-#span {
+.span {
     display: flex;
     justify-content: center;
 }
