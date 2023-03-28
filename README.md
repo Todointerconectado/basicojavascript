@@ -97,6 +97,12 @@ node -v
 
 Also make sure that you're using a correct Node version (`>=16`). If you're using [nvm](https://github.com/nvm-sh/nvm) for Node version management you may run `nvm use` from the root folder of the project and the correct version will be picked up.
 
+> ### Si estás participando en el curso.
+> ### Haz un [FORK](https://github.com/Todointerconectado/basicojavascript/fork) del proyecto y añade tu usuario de GitHub en una nueva línea en el archivo [**HELLO.md**](https://github.com/Todointerconectado/basicojavascript/blob/main/HELLO.md).
+>
+> _Así practicarás un flujo completo de trabajo en Git y GitHub_
+
+<hr>
 
 ## Encuéntrame en:
 
