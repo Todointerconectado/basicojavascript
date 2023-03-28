@@ -129,11 +129,9 @@ Also make sure that you're using a correct Node version (`>=16`). If you're usin
 
 [![web](https://raw.githubusercontent.com/Todointerconectado/Todointerconectado/23a0a9d6cdf33d7f565d15e335868aa68d371598/img/web.svg)](https://todointerconectado.com)
 
-</br>
 
 [![BuyMeACoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-apoya_mi_trabajo-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white&labelColor=101010)](https://www.buymeacoffee.com/francarusso)
 
-<br>
 
 [![Email](https://raw.githubusercontent.com/Todointerconectado/Todointerconectado/23a0a9d6cdf33d7f565d15e335868aa68d371598/img/email.svg)](mailto:francisconicolascarusso@gmail.com)
 
