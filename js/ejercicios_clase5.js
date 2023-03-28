@@ -15,6 +15,7 @@ let li4 = document.getElementById('li4');
 let li5 = document.getElementById('li5');
 let li6 = document.getElementById('li6');
 let li7 = document.getElementById('li7');
+let li8 = document.getElementById('li8');
 let li9 = document.getElementById('li9');
 let li10 = document.getElementById('li10');
 let li11 = document.getElementById('li11');
@@ -44,7 +45,7 @@ function numAleatorio() {
     return li4.textContent = `El número minimo es: ${min}. El número maximo es: ${max}. 
         El número aleatorio entre ellos es: ${resultado}.`;
 }
-numAleatorio();
+// numAleatorio();
 
 
 // 5. Rellena un array con los números del 1 al 10. Muéstralo por la consola.
@@ -98,7 +99,7 @@ function rellenarArrayNumAleatorios() {
         `
     );
 }
-rellenarArrayNumAleatorios();
+// rellenarArrayNumAleatorios();
 
 
 //8. Realiza un script que pida cadenas de texto hasta que se ingrese la palabra “cancelar”.
@@ -107,17 +108,19 @@ rellenarArrayNumAleatorios();
 function stringOfText() {
     let array = [];
     do {
-        do {
-            cadena = prompt(`Ejercicio 8) \n NOTA: Para terminar escribir 'cancelar'.
-            Ingrese una palabra u oración para guardar: `);
-        } while (!isNaN(cadena));
+        cadena = prompt(`Ejercicio 8) \n NOTA: Para terminar escribir 'cancelar'.
+        Ingrese una palabra u oración para guardar: `);
 
         if (cadena !== 'cancelar') {
-            array.push('-' + cadena);
+            array.push(cadena);
         }
     } while (cadena !== 'cancelar');
 
-    return li8.textContent = `Array cargado: ${array}`;
+    for(let i=0; i<array.length; i++) {
+        let p = document.createElement('p');
+        p.textContent = `Indice[${[i]}]: -${array[i]}`;
+        li8.append(p);
+    }
 }
 stringOfText();
 

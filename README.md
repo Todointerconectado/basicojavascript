@@ -98,55 +98,42 @@ node -v
 Also make sure that you're using a correct Node version (`>=16`). If you're using [nvm](https://github.com/nvm-sh/nvm) for Node version management you may run `nvm use` from the root folder of the project and the correct version will be picked up.
 
 
-## Author: Francisco Carusso 🖋
+## Encuéntrame en:
 
- <table align="center">
-        <tr style="display: flex; gap: 20px;">
-            <!-- <td align="center"> -->
-                <th align="center" style="width: 160px;">
-                    <a href="https://todointerconectado.com">
-                        <img
-                        src="https://github.com/Todointerconectado/todointerconectado.github.io/blob/main/CSS/img/favicons/apple-icon-114x114.png"
-                        width="50"
-                        height="50"
-                        />
-                    </a>
-                    <br/>
-                    <a href="https://todointerconectado.com"  target="_blank">
-                        Todointerconectado
-                    </a>
-                </th>
-                <th align="center" style="width: 160px;">
-                    <a href="https://www.linkedin.com/in/franciscocarusso" target="_blank">
-                        <img
-                        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-                        alt="https://www.linkedin.com/in/franciscocarusso"
-                        width="50"
-                        height="50"
-                        />
-                    </a>
-                    <br />
-                    <a href="https://www.linkedin.com/in/franciscocarusso"  target="_blank">
-                        <span>LinKedin</span>
-                    </a>
-                </th>
-                <th align="center"  style="width: 160px;">
-                    <a href="https://www.youtube.com/@todointerconectado" target="_blank">
-                        <img
-                        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg"
-                        alt="https://www.youtube.com/@todointerconectado"
-                        width="50"
-                        height="50"
-                        />
-                    </a>
-                    <br />
-                    <a href="https://www.youtube.com/@todointerconectado"  target="_blank">
-                        <span>YouTube</span>
-                    </a>
-                </th>
-            <!-- </td> -->
-        </tr>
-    </table>
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://todointerconectado.com" target="_blank">
+        <img align="center" src="https://raw.githubusercontent.com/Todointerconectado/Todointerconectado/main/img/TIC.png" alt="https://todointerconectado.com" alt="todointerconectado" height="30" width="40" /></a>
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=franciscocarusso" target="_blank">
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinKedin" height="30" width="40" /></a>
+    </td>
+    <td>
+      <a href="https://www.youtube.com/@todointerconectado" target="_blank">
+        <img align="center" src="https://raw.githubusercontent.com/Todointerconectado/Todointerconectado/main/img/youtube.png" alt="YouTube" height="30" width="40" /></a>
+    </td>
+    <td>
+      <a href="https://www.tiktok.com/@todointerconectado" target="_blank">
+        <img align="center" src="https://raw.githubusercontent.com/Todointerconectado/Todointerconectado/main/img/tik_tok.png" alt="TikTok" height="30" width="40" /></a>
+    </td>
+    <td>
+      <a href="https://instagram.com/franciscocarusso" target="_blank">
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" /></a>
+    </td>
+  </tr>
+</table>
 
-## Contratación 📧
-Si quieres contactarme puedes escribirme a francisconicolascarusso@gmail.com para consultas o en <a href="https://www.linkedin.com/in/franciscocarusso" target="_blank">linkedin.</a>
+## Contacto y apoyo:
+
+[![web](https://raw.githubusercontent.com/Todointerconectado/Todointerconectado/23a0a9d6cdf33d7f565d15e335868aa68d371598/img/web.svg)](https://todointerconectado.com)
+
+</br>
+
+[![BuyMeACoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-apoya_mi_trabajo-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white&labelColor=101010)](https://www.buymeacoffee.com/francarusso)
+
+<br>
+
+[![Email](https://raw.githubusercontent.com/Todointerconectado/Todointerconectado/23a0a9d6cdf33d7f565d15e335868aa68d371598/img/email.svg)](mailto:francisconicolascarusso@gmail.com)
+
