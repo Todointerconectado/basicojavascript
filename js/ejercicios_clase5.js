@@ -45,7 +45,7 @@ function numAleatorio() {
     return li4.textContent = `El número minimo es: ${min}. El número maximo es: ${max}. 
         El número aleatorio entre ellos es: ${resultado}.`;
 }
-// numAleatorio();
+numAleatorio();
 
 
 // 5. Rellena un array con los números del 1 al 10. Muéstralo por la consola.
@@ -99,7 +99,7 @@ function rellenarArrayNumAleatorios() {
         `
     );
 }
-// rellenarArrayNumAleatorios();
+rellenarArrayNumAleatorios();
 
 
 //8. Realiza un script que pida cadenas de texto hasta que se ingrese la palabra “cancelar”.
