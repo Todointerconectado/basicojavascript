@@ -47,6 +47,7 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
 * `B` [00 Valores](https://github.com/Todointerconectado/basicojavascript/blob/main/script/00_Valores.js) - ¿Qué es un valor?
 * `B` [01 variables](https://github.com/Todointerconectado/basicojavascript/blob/main/script/01_variables.js) - Tipos de Variables.
 * `B` [02 Funciones](https://github.com/Todointerconectado/basicojavascript/blob/main/script/02_funciones.js) - Estructurar una function.
+* `B` [02.1 Callbacks](./script/02-1_Callbacks.js) - Funciones que se pasan como argumento a otra funcion.
 * `B` [03 Scope](https://github.com/Todointerconectado/basicojavascript/blob/main/script/03_scope.js) - Qué alcance tienen las variables.
 * `B` [04 Hoisting](https://github.com/Todointerconectado/basicojavascript/blob/main/script/04_Hoisting.js) - Desplazamiento a la parte superior.
 * `B` [05 Coercion](https://github.com/Todointerconectado/basicojavascript/blob/main/script/05_coercion.js) - Transformar de un tipo de dato.
