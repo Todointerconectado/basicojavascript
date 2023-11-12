@@ -2,7 +2,7 @@
 
 // ---------------------------- Callback ----------------------------
 // Las callback son funciones que se pasan como argumento a otra funcion
-// Esta tecnica nos permite tener una mejor secuencia de control sobre la ejecucion de nuestras funciones y tener codigo reutilizable y flexibilidad.
+// Esta tecnica nos permite tener una mejor secuencia de control sobre la ejecucion de nuestras funciones y tener codigo reutilizable y flexible.
 
 //Por ejemplo tenemos cuatro funciones llamadas suma,resta,multiplicacion,division y que nos devuelve el resultado de dicha operacion
 //Y una funcion llamada calculadora, que muestra el resultado
