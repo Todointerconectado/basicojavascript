@@ -46,8 +46,8 @@ Este es un repositorio para ver los principios básicos de javaScript y aplicarl
 
 * `B` [00 Valores](https://github.com/Todointerconectado/basicojavascript/blob/main/script/00_Valores.js) - ¿Qué es un valor?
 * `B` [01 variables](https://github.com/Todointerconectado/basicojavascript/blob/main/script/01_variables.js) - Tipos de Variables.
-* `B` [02.0 Funciones](https://github.com/Todointerconectado/basicojavascript/blob/main/script/02_funciones.js) - Estructurar una function.
-* `B` [02.1 Funciones Flecha](./script/02-1_funcionesFlecha.js) - Funciones que se pasan como argumento a otra funcion.
+* `B` [02.0 Funciones](https://github.com/Todointerconectado/basicojavascript/blob/main/script/02_0-funciones.js) - Estructurar una function.
+* `B` [02.1 Funciones Flecha](./script/02-1_funcionesFlecha.js) - Una nueva estructura de funcion, mas flexible y facil de escribir.
 * `B` [02.2 Callbacks](./script/02-2_Callbacks.js) - Funciones que se pasan como argumento a otra funcion.
 * `B` [03 Scope](https://github.com/Todointerconectado/basicojavascript/blob/main/script/03_scope.js) - Qué alcance tienen las variables.
 * `B` [04 Hoisting](https://github.com/Todointerconectado/basicojavascript/blob/main/script/04_Hoisting.js) - Desplazamiento a la parte superior.

@@ -37,8 +37,8 @@ function saludarEstudiantes (estudiante) {
     console.log(estudiante);
 }
 
-// console.log(`Hola ${estudiante}`);
-// saludarEstudiantes('Francisco Carusso');
+console.log(`Hola ${estudiante}`);
+saludarEstudiantes('Francisco Carusso');
 
 // --------------------------------------------------------------
 function sumar(a,b) {
