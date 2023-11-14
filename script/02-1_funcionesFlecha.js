@@ -91,8 +91,7 @@ console.log(ejemploCuatro('Juan','Paz')) //Output -> Hola Juan Paz, soy una func
     //const funcionFlecha = () => 'Soy una funcion de flecha.';
 
 //Pero al momento de escribir una funcion que requiere realizar otras sentencias (lineas de codigo),
-//ahi si estamos obligados a utilizar las llaves para envolver nuestro codigo, y en el caso que esta funcion retorne un valor,
-//utilizar el return:
+//ahi si estamos obligados a utilizar las llaves para envolver nuestro codigo, y en el caso que esta funcion retorne un valor, utilizamos el return:
 
 const funcionCompleja = () => {
     let nombre = 'Juan';

@@ -26,11 +26,11 @@ function miFuncion() {
 //Generamos una variable que va a guardar una function.
 // Parametros: (a,b)
 
-// let miFuncion = function(a,b) {
-//     return a + b;
-// }
+let miFuncion = function(a,b) {
+    return a + b;
+}
 // Llamar función de expresión, después de declarar, no se le aplica hoisting. 
-// miFuncion();
+miFuncion();
 
 // ------------------------- Ejemplos -------------------------
 function saludarEstudiantes (estudiante) {
