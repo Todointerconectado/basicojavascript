@@ -70,7 +70,7 @@
 | `14.1` | [Eliminar Elementos de un Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/14-1_eliminarElementosDeUnArray.js) | Distintas funciones para aplicar. |
 | `15.0` | [Desafios](https://github.com/Todointerconectado/basicojavascript/blob/main/script/15-0_dom.js) | Principios del DOM. |
 | `15.1` | [Desafios](https://github.com/Todointerconectado/basicojavascript/blob/main/script/15-1_desafios.js) | Desafios para aplicar lo aprendido. |
-| `16.0` | [Tema](#) | ----- |
+| `16.0` | [setTimeout y setInterval](./script/16-0_setTimeoutSetInterval.js) | Funciones asincronas: Introduccion a javascript asincrono |
 
 ## Install node.js:
 
