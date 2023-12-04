@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica: Set Timeout y Set Interval</title>
+    <style>
+        /*Una simple hoja de estilos para los elementos del DOM*/
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: rgb(70, 70, 248);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            background-color: aliceblue;
+            width: 600px;
+            height: 600px;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+        h1{
+            font-size: 1.5em;
+        }
+    </style>
+    <script>
+        // Un simple evento para mantener deshabilitado el boton 'clearInterval' entre recarga de paginas 
+        document.addEventListener('DOMContentLoaded', ()=>{
+            document.querySelector('#clearInterval').disabled = true
+        })
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Practica de Set Timeout y Set Interval</h1>
+        <h2>Set Timeout</h2>
+        <button id="setTimeout"> Ejecutar Set Timeout </button>
+        <span id="st">  </span>
+
+        <h2>Set Interval</h2>
+        <button id="setInterval"> Ejecutar Set Interval </button>
+        <button id="clearInterval"> Ejecutar Clear Interval </button>
+        <p id="estadoReloj">Mostrar la hora:</p>
+        <span id="si"></span>
+    </div>
+
+    <script src="../script/16-1_practicaSetTimeoutSetInterval.js"></script>
+</body>
+</html>
