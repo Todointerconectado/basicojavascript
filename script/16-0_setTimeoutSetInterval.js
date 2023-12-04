@@ -18,16 +18,22 @@
 
 //----------------------------- setInterval ------------------------------
 // Otra funcion asincrona, es setInterval, que a diferencia de setTimeout que se ejecuta una vez despues de establecer un tiempo de espera,
-// esta se ejecuta cada intervalo de tiempo en milisegundos (ms). La desventaja, es que no para de ejecutarse, por lo que no recomiendo utilizarla mucho, a menos que sea necesario.
+// esta se ejecuta cada intervalo de tiempo en milisegundos (ms). La desventaja, es que no para de ejecutarse. La forma mas practica, de manejar el setInterval,
+// es inicializarla en una variable (let, const o var). Esto nos sirve para tener una referencia de la funcion que se esta ejecutando cada intervalo de tiempo,
+// y luego, con otra funcion llamada clearInterval, le pasamos como argumento dicha referencia. Por ejemplo:
 
-// {
-//   function saludoGenerico() {
-//     console.log("Hola a todos, soy una funcion asincrona :D");
-//   }
+{
+  function saludoGenerico() {
+    console.log("Hola a todos, soy una funcion asincrona :D");
+  }
 
-//   //Invocamos a setInterval para que muestre nuestro mensaje cada 5 segundos
-//   setInterval(saludoGenerico, 1000); // 5000 ms = 5 seg
-// }
+  //Inicializamos una variable con el nombre intervalID (de ejemplo)
+  //A su vez, invocamos a setInterval para que muestre nuestro mensaje cada 5 segundos, es decir que la funcion asincrona se ejecuta igual.
+  let intervalID = setInterval(saludoGenerico, 5000); // 5000 ms = 5 seg
+
+  //Para finalizar la ejecucion del setInterval, llamamos a la funcion clearInterval y le pasamos como argumento, el intervalID de la funcion que queremos que deje de ejecutarse:
+  clearInterval(intervalID) // En este caso, el setInterval se va a detener inmediatamente, pero podrias crear una condicional para ejecutar esta funcion.
+}
 
 //----------------------------- Funciones Sincronas vs Funciones Asincronas ------------------------------
 
@@ -90,7 +96,7 @@
   }
   //Cuando le pasemos esta funcion como callback a setTimeout, va a ocurrir un error inesperado.
   //Primero setTimeout espera que la callback no reciba parametros, y segundo porque primeraTarea espera un parametro para condicionar el bucle for:
-  //Seguramente pensarias que la solucion seria pasarle el parametro a la callback cuando la invocamos, pero eso no esta permitido hacerlo de la siguiente manera:
+  //Seguramente pensarias que la solucion seria pasarle el parametro a la callback cuando la invocamos, pero eso NO esta permitido hacerlo de la siguiente manera:
   // setTimeout(primeraTarea(5),5000); ESTO NO SE PUEDE HACER
 }
 
