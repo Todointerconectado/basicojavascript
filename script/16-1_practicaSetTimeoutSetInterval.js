@@ -56,8 +56,16 @@ buttonInterval.onclick = ()=>{
     }
 }
 
-function mostrarHora(){
-    const span = document.getElementById('si')
-    const hora = new Date()
-    span.innerHTML= hora.getHours().toString().padStart(2,"0") + ':' + hora.getMinutes().toString().padStart(2,"0") + ':' + hora.getSeconds().toString().padStart(2,"0")
+function mostrarHora() {
+    const span = document.getElementById('si');
+
+    const createTime = (tiempo) => tiempo.toString().padStart(2, "0");
+
+    const hora = new Date();
+    const hours = createTime(hora.getHours());
+    const minutes = createTime(hora.getMinutes());
+    const seconds = createTime(hora.getSeconds());
+
+    // Luego podés igualarlo quedando:
+    span.innerHTML = `${hours}:${minutes}:${seconds}`;
 }

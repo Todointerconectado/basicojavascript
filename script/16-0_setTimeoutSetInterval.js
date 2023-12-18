@@ -1,5 +1,5 @@
 // -------------------------------------- JS Asincrono ----------------------------------------
-// NOTA: Para esta seccion, vamos a utilizar mucho callbacks y arrow function (funciones flecha).
+// NOTA: Para esta seccion, vamos a utilizar mucho arrow function (02-1_funcionesFlecha) y callbacks (02-2_Callbacks)  .
 //        Si no estas familarizado con esos conceptos te invitamos a que repases estos temas, y vuelvas cuando estes listo.
 //----------------------------- setTimeout ------------------------------
 // Las funciones que se ejecutan en paralelo a otras funciones, sin bloquear el hilo de ejecucion y se cargan en paralelo
@@ -72,7 +72,7 @@
     }
   }
   function segundaTarea() {
-    console.log("Ejecutando la primera segunda:");
+    console.log("Ejecutando la segunda tarea:");
     console.log(`Realizando otra tarea independiente a la anterior`);
   }
 
@@ -139,7 +139,7 @@
     console.log(`Realizando otra tarea independiente a la anterior`);
   }
   setTimeout(() => {
-    primeraTarea(5); //Al finalizar su tiempo de espera, ejecuta primera tarea el numero de veces que le indicamos.
+    primeraTarea(5); //Al finalizar el tiempo de espera (5ms) del setTimeout, se ejecuta la primera tarea una vez, con la variable del for en 5.
     terceraTarea(); //Al finalizar primeraTarea, se ejecuta tercera Tarea
   }, 5000);
   segundaTarea() // segundaTarea, es la primera funcion que se ejecuta.
@@ -147,4 +147,3 @@
 
 //NOTA: No te preocupes si esto no lo comprendes de entrada, esto es una introduccion a Javascript Asincrono, con ejemplo basicos con setTimeout. 
 // Pero la asincronia es mas que una funcion que establece un tiempo de espera. 
-// El principal fuerte del javascript asincrono, es el uso del objeto Promise(Promesas), que lo vamos a ver el proximo capitulo.
