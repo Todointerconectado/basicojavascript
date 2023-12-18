@@ -72,8 +72,7 @@
 | `15.1` | [Eliminar Elementos de un Array](./script/14-1_eliminarElementosDeUnArray.js) | Distintas funciones para aplicar. |
 | `16.0` | [Desafios](./script/15-0_dom.js) | Principios del DOM. |
 | `16.1` | [Desafios](./script/15-1_desafios.js) | Desafios para aplicar lo aprendido. |
-
->>>>>>> 9fc633b (Probando..)
+| `17.0` | [Tema](#) | ----- |
 
 ## Install node.js:
 
