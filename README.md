@@ -49,28 +49,30 @@
 
 |  ID  |  TEMA   | DESCRIPCIÓN |
 | :--: | :-----: | :---------: |
-| `00.0` | [Valores](https://github.com/Todointerconectado/basicojavascript/blob/main/script/00_Valores.js) | ¿Qué es un valor? |
-| `01.0` | [Variables](https://github.com/Todointerconectado/basicojavascript/blob/main/script/01_variables.js) | Tipos de Variables. |
-| `02.0` | [Funciones](https://github.com/Todointerconectado/basicojavascript/blob/main/script/02_0-funciones.js) | Estructurar una function. |
+| `00.0` | [Valores](./script/00_Valores.js) | ¿Qué es un valor? |
+| `01.0` | [Variables](./script/01_variables.js) | Tipos de Variables. |
+| `02.0` | [Funciones](./script/02_0-funciones.js) | Estructurar una function. |
 | `02.1` | [Funciones Flecha](./script/02-1_funcionesFlecha.js) | Una nueva estructura de funcion, mas flexible y fácil de escribir. |
 | `02.2` | [Callbacks](./script/02-2_Callbacks.js) | Funciones que se pasan como argumento a otra funcion. |
-| `03.0` | [Scope](https://github.com/Todointerconectado/basicojavascript/blob/main/script/03_scope.js) | Qué alcance tienen las variables. |
-| `04.0` | [Hoisting](https://github.com/Todointerconectado/basicojavascript/blob/main/script/04_Hoisting.js) | Desplazamiento a la parte superior. |
-| `05.0` | [Coercion](https://github.com/Todointerconectado/basicojavascript/blob/main/script/05_coercion.js) | Transformar de un tipo de dato. |
-| `06.0` | [Truthy y Falsy](https://github.com/Todointerconectado/basicojavascript/blob/main/script/06_TruthyyFalsy.js) | Son valores verdaderos y falsos. |
-| `07.0` | [Operadores](https://github.com/Todointerconectado/basicojavascript/blob/main/script/07_Operadores.js) | Asignación, Comparación y Aritméticos. |
-| `08.0` | [If...else](https://github.com/Todointerconectado/basicojavascript/blob/main/script/08_if-else.js) | Son estructuras de control. |
-| `09.0` | [Switch](https://github.com/Todointerconectado/basicojavascript/blob/main/script/09_switch.js) | Otra manera de evaluar condiciones. |
-| `10.0` | [Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/10_array.js) | Un array es una estructura de datos. |
-| `11.0` | [For y For...Of](https://github.com/Todointerconectado/basicojavascript/blob/main/script/11_foryForOf.js) | Un bucle(loop) o ciclo repetitivo. |
-| `12.0` | [While](https://github.com/Todointerconectado/basicojavascript/blob/main/script/12_While.js) | Ciclo while. |
-| `13.0` | [Objects](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-0_objects.js) | Un objeto es una estructura de datos. |
-| `13.1` | [Objects Función constructora](https://github.com/Todointerconectado/basicojavascript/blob/main/script/13-1_objectsFuncionConstructora.js) | crear varios objetos a partir de nueva información. |
-| `14.0` | [Recorridos de Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/4-0_RecorridosDeArray.js) | Distintas funciones para recorrer un array |
-| `14.1` | [Eliminar Elementos de un Array](https://github.com/Todointerconectado/basicojavascript/blob/main/script/14-1_eliminarElementosDeUnArray.js) | Distintas funciones para aplicar. |
-| `15.0` | [Desafios](https://github.com/Todointerconectado/basicojavascript/blob/main/script/15-0_dom.js) | Principios del DOM. |
-| `15.1` | [Desafios](https://github.com/Todointerconectado/basicojavascript/blob/main/script/15-1_desafios.js) | Desafios para aplicar lo aprendido. |
-| `16.0` | [Tema](#) | ----- |
+| `03.0` | [Scope](./script/03_scope.js) | Qué alcance tienen las variables. |
+| `04.0` | [Hoisting](./script/04_Hoisting.js) | Desplazamiento a la parte superior. |
+| `05.0` | [setTimeout y setInterval](./script/16-0_setTimeoutSetInterval.js) | Funciones asincronas: Introduccion a javascript asincrono  |
+| `05.1` | [Practica seTimeout y setInterval](./script/16-1_practicaSetTimeoutSetInterval.js) | Practica sobre setTimeout y setInterval en el DOM <br> [![setTimeoutSetInterval](https://img.shields.io/badge/https%3A%2F%2Ftodointerconectado.github.io/basicojavascript/html-%2FsetTimeoutSetInterval.html-blue?logo=html5)](./html/setTimeoutSetInterval.html)|
+| `06.0` | [Coercion](./script/05_coercion.js) | Transformar de un tipo de dato. |
+| `07.0` | [Truthy y Falsy](./script/06_TruthyyFalsy.js) | Son valores verdaderos y falsos. |
+| `08.0` | [Operadores](./script/07_Operadores.js) | Asignación, Comparación y Aritméticos. |
+| `09.0` | [If...else](./script/08_if-else.js) | Son estructuras de control. |
+| `10.0` | [Switch](./script/09_switch.js) | Otra manera de evaluar condiciones. |
+| `11.0` | [Array](./script/10_array.js) | Un array es una estructura de datos. |
+| `12.0` | [For y For...Of](./script/11_foryForOf.js) | Un bucle(loop) o ciclo repetitivo. |
+| `13.0` | [While](./script/12_While.js) | Ciclo while. |
+| `14.0` | [Objects](./script/13-0_objects.js) | Un objeto es una estructura de datos. |
+| `14.1` | [Objects Función constructora](./script/13-1_objectsFuncionConstructora.js) | crear varios objetos a partir de nueva información. |
+| `15.0` | [Recorridos de Array](./script/14-0_RecorridosDeArray.js) | Distintas funciones para recorrer un array |
+| `15.1` | [Eliminar Elementos de un Array](./script/14-1_eliminarElementosDeUnArray.js) | Distintas funciones para aplicar. |
+| `16.0` | [Desafios](./script/15-0_dom.js) | Principios del DOM. |
+| `16.1` | [Desafios](./script/15-1_desafios.js) | Desafios para aplicar lo aprendido. |
+| `17.0` | [Tema](#) | ----- |
 
 ## Install node.js:
 
