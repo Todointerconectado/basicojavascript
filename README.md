@@ -57,7 +57,7 @@
 | `03.0` | [Scope](./script/03_scope.js) | Qué alcance tienen las variables. |
 | `04.0` | [Hoisting](./script/04_Hoisting.js) | Desplazamiento a la parte superior. |
 | `05.0` | [setTimeout y setInterval](./script/16-0_setTimeoutSetInterval.js) | Funciones asincronas: Introduccion a javascript asincrono  |
-| `05.1` | [Practica seTimeout y setInterval](./script/16-1_practicaSetTimeoutSetInterval.js) | Practica sobre setTimeout y setInterval en el DOM <br> [![setTimeoutSetInterval](https://img.shields.io/badge/https%3A%2F%2Ftodointerconectado.github.io/basicojavascript/html-%2FsetTimeoutSetInterval.html-blue?logo=html5)](./html/setTimeoutSetInterval.html)|
+| `05.1` | [Practica seTimeout y setInterval](./script/16-1_practicaSetTimeoutSetInterval.js) | Practica sobre setTimeout y setInterval en el DOM <br> [![setTimeoutSetInterval](https://img.shields.io/badge/https%3A%2F%2Ftodointerconectado.github.io/basicojavascript/html-%2FsetTimeoutSetInterval.html-blue?logo=html5)](https://todointerconectado.github.io/basicojavascript/html/setTimeoutSetInterval.html)|
 | `06.0` | [Coercion](./script/05_coercion.js) | Transformar de un tipo de dato. |
 | `07.0` | [Truthy y Falsy](./script/06_TruthyyFalsy.js) | Son valores verdaderos y falsos. |
 | `08.0` | [Operadores](./script/07_Operadores.js) | Asignación, Comparación y Aritméticos. |
