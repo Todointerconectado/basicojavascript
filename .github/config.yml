@@ -1,0 +1,34 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Soporte
+    url: https://github.com/Todointerconectado/basicojavascript/issues/new
+    about: Contacta al equipo para soporte o preguntas generales.
+
+issue_templates:
+  - name: 🐛 Reportar un error
+    description: Reporta un problema detectado en el proyecto.
+    template: ISSUE_TEMPLATE/bug_report.md
+    labels: bug
+  - name: ✨ Solicitar función
+    description: Proponer una nueva característica para el proyecto.
+    template: ISSUE_TEMPLATE/feature_request.md
+    labels: enhancement
+  - name: 📚 Documentación
+    description: Sugerir mejoras o correcciones en la documentación.
+    template: ISSUE_TEMPLATE/documentation.md
+    labels: documentation
+  - name: ❓ Pregunta
+    description: Hacer una consulta o pedir aclaraciones sobre el proyecto.
+    template: ISSUE_TEMPLATE/question.md
+    labels: question
+
+pull_request_templates:
+  - name: ✨ Nueva funcionalidad
+    description: Plantilla para agregar nuevas funcionalidades.
+    template: PULL_REQUEST_TEMPLATE/feature.md
+  - name: 🐛 Corrección de bug
+    description: Plantilla para correcciones de errores.
+    template: PULL_REQUEST_TEMPLATE/bugfix.md
+  - name: 📚 Documentación
+    description: Plantilla para mejoras de documentación.
+    template: PULL_REQUEST_TEMPLATE/documentation.md
