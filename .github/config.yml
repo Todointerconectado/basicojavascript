@@ -21,14 +21,3 @@ issue_templates:
     description: Hacer una consulta o pedir aclaraciones sobre el proyecto.
     template: ISSUE_TEMPLATE/question.md
     labels: question
-
-pull_request_templates:
-  - name: ✨ Nueva funcionalidad
-    description: Plantilla para agregar nuevas funcionalidades.
-    template: PULL_REQUEST_TEMPLATE/feature.md
-  - name: 🐛 Corrección de bug
-    description: Plantilla para correcciones de errores.
-    template: PULL_REQUEST_TEMPLATE/bugfix.md
-  - name: 📚 Documentación
-    description: Plantilla para mejoras de documentación.
-    template: PULL_REQUEST_TEMPLATE/documentation.md

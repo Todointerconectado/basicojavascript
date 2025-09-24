@@ -1,23 +1,23 @@
-# 📚 Mejora de Documentación
+# ⚙️ Cambio de Configuración
 
 > ℹ️ Recuerda usar [Conventional Commits](https://www.conventionalcommits.org) en el título del PR.  
-> Ejemplo: `docs: mejora sección de instalación`  
+> Ejemplo: `chore(config): actualiza settings del repositorio`  
 >  
 > 👉 También puedes revisar la [plantilla general](../PULL_REQUEST_TEMPLATE.md) si prefieres más opciones.
 
 ## Descripción
-Describe los cambios realizados en la documentación.
+Describe el cambio de configuración y el motivo detrás de él.
 
 ## Tipo de cambio
-- [x] Mejora de documentación
+- [x] Cambio de configuración
 
 ## Checklist
+- [ ] Código sigue las pautas del proyecto
 - [ ] Documentación actualizada
-- [ ] Código comentado si aplica
 - [ ] Todas las pruebas pasan localmente
 
 ## Issues relacionados
 Closes # (incluir número del issue relacionado)
 
 ## Impacto
-Explica si estos cambios afectan la comprensión o el uso del proyecto.
+Describe si este cambio afecta procesos o la compatibilidad del proyecto.
