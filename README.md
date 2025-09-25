@@ -17,7 +17,7 @@
 [![GitHub top language](https://img.shields.io/github/languages/top/Todointerconectado/basicojavascript?logo=github)](#)
 
 * Te invito a dar tu `⭐` al proyecto!!
-* Si quieres aportar al proyecto genera un `Fork`
+* Si quieres aportar al proyecto genera un: [![GitHub forks](https://img.shields.io/github/forks/Todointerconectado/basicojavascript?logo=github)](https://github.com/Todointerconectado/basicojavascript/fork)
 
 ## Descripción 👨‍💼
 

@@ -864,5 +864,8 @@
         "Verificar",
         "vuelva",
         "vuelve"
+    ],
+    "conventionalCommits.scopes": [
+        "config"
     ]
 }
