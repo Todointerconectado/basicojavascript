@@ -1,0 +1,25 @@
+{
+  "projectName": "basicojavascript",
+  "projectOwner": "Todointerconectado",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "Todointerconectado",
+      "name": "Francisco Carusso",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106126465?v=4",
+      "profile": "https://todointerconectado.com/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": true
+}

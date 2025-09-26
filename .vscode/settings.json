@@ -866,6 +866,7 @@
         "vuelve"
     ],
     "conventionalCommits.scopes": [
-        "config"
+        "config",
+        "readme"
     ]
 }
