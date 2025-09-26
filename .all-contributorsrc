@@ -18,19 +18,15 @@
       "login": "Todointerconectado",
       "name": "Francisco Carusso",
       "avatar_url": "https://avatars.githubusercontent.com/u/106126465?v=4",
-      "profile": "https://todointerconectado.com/",
-      "contributions": [
-        "code"
-      ]
+      "profile": "https://github.com/Todointerconectado",
+      "contributions": ["code"]
     },
     {
       "login": "JuanFPaz",
       "name": "Juan Paz",
       "avatar_url": "https://avatars.githubusercontent.com/u/100331400?v=4",
-      "profile": "https://jpaz.ar/",
-      "contributions": [
-        "code"
-      ]
+      "profile": "https://github.com/JuanFPaz",
+      "contributions": ["code"]
     }
   ]
 }

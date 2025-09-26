@@ -1,3 +1,0 @@
-<a href="{{profile}}" target="_blank">
-  <img src="{{avatar_url}}" width="{{imageSize}}" height="{{imageSize}}" alt="{{login}}" style="border-radius:50%">
-</a>
