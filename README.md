@@ -1,6 +1,6 @@
 # Principios basicos para javaScript
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Layout preview for the Todointerconectado page](/css/images/miniatura.png)
@@ -173,6 +173,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://todointerconectado.com/"><img src="https://avatars.githubusercontent.com/u/106126465?v=4?s=100" width="100px;" alt="Francisco Carusso"/><br /><sub><b>Francisco Carusso</b></sub></a><br /><a href="https://github.com/Todointerconectado/basicojavascript/commits?author=Todointerconectado" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://jpaz.ar/"><img src="https://avatars.githubusercontent.com/u/100331400?v=4?s=100" width="100px;" alt="Juan Paz"/><br /><sub><b>Juan Paz</b></sub></a><br /><a href="https://github.com/Todointerconectado/basicojavascript/commits?author=JuanFPaz" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
