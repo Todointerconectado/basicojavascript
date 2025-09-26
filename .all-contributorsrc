@@ -19,7 +19,10 @@
       "name": "Francisco Carusso",
       "avatar_url": "https://avatars.githubusercontent.com/u/106126465?v=4",
       "profile": "https://github.com/Todointerconectado",
-      "contributions": ["code"]
+      "contributions": [
+        "code", "a11y", "bug", "data", "doc", "maintenance",
+        "mentoring", "question", "tool"
+      ]
     },
     {
       "login": "JuanFPaz",
